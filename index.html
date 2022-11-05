@@ -16,34 +16,32 @@
       <link rel="icon" href="images/fevicon.png" type="image/gif" />
    </head>
    <!-- body -->
-   <body class="main-layout" backgroundcolor="#e2e8dd">
+   <body class="main-layout">
       <!-- header -->
       <header>
         <!-- header inner -->
         <div class="header"> 
             <div class="logo">
-                <a href="index.html"><h2>Ching-Chih Tsao</h2></a>
+                <h2>Ching-Chih Tsao</h2>
             </div>
             <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                <div class="collapse navbar-collapse" id="navbarsExample04">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="publications.html">Publications</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="ideas.html">Ideas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="publications.html">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ideas.html">Ideas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
             </nav>
         </div>
       </header>
@@ -52,11 +50,43 @@
       <!-- banner -->
       <section class="banner_main">
             <div class="container">
-                <div class="text-bg">
-                    <h1> <span class="blu">Hi! <br></span>I'm Ching-Chih Tsao</h1>
+                <div class="row">
+                    <div class="column-profile">
+                        <img class="profile-pic" src="images/profile.png" width="400">
+                    </div>
+                    <div class="column-intro">
+                        <div class="intro">
+                            <span class="name">
+                                Ching-Chih Tsao (曹瀞之)
+                                <span style="padding-left:10px">
+                                    <button onclick="playAudio()"><img src="icon/speaker.png" width = "18"></button>
+                                </span>
+                                <audio src="audio/name.mp3" id="audio-name"></audio>
+                                <script>
+                                    var x = document.getElementById("audio-name");
+
+                                    function playAudio() {
+                                        x.play();
+                                    }
+                                </script>
+                            </span>
+                            <span class="intro-content">
+                                <br>
+                                Hi! I'm a senior student in Management Information Systems at National Chengchi University.
+                                I'm currently working as a research assistant in the Human-Automation Interaction Lab / AI Research Center supervised by
+                                <a href="https://gsechien.github.io/index.html">Shih-Yi Chien</a>.
+                                My research interest broadly covers the applications of human-centered data science.
+                            </span>
+                        </div>
+                        
+                    </div>
                 </div>
+                
             </div>
         </div>
+      </section>
+      <section class="banner_main">
+        <img src="images/eeg-bg.png">
       </section>
       <!-- end banner -->
       <!-- about section -->
