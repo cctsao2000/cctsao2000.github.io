@@ -52,8 +52,8 @@ h3,
 h4,
 h5,
 h6 {
+     font-family: "Noto Sans TC", sans-serif;;
      letter-spacing: 0;
-     font-weight: normal;
      position: relative;
      padding: 0 0 10px 0;
      font-weight: normal;
@@ -63,12 +63,12 @@ h6 {
 }
 
 h1 {
-     font-size: 24px;
+     font-size: 30px;
 }
 
 h2 {
-     font-family: "Rajdhani";
-     font-size: 30px;
+     font-size: 26px;
+     font-weight: 300;
 }
 
 h3 {
@@ -121,7 +121,7 @@ img {
      height: auto;
 }
 
- :focus {
+:focus {
      outline: 0;
 }
 
@@ -172,6 +172,15 @@ button {
      font-size: 20px;
      font-weight: 100;
 }
+
+.link-out:hover{
+     text-decoration-line: underline;
+}
+
+.publ .link-out {
+     font-weight: 400;
+}
+
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 
@@ -181,30 +190,24 @@ button {
      position: fixed;
      text-align: right;
      clear: both;
-     padding-left: 87%;
+     padding-left: 86%;
      /* padding: 10px 10px !important; */
 }
 
-.navigation.navbar-dark .navbar-nav .nav-link {
+.navbar-nav .nav-link {
      padding: 0 20px;
      color: #56524D;
      font-size: 16px;
+     /* letter-spacing:1px; */
      line-height: 30px;
-     font-weight: 300;
+     font-weight: 350;
      text-transform: uppercase;
 }
 
-.navigation.navbar-dark .navbar-nav .nav-link:focus,
-.navigation.navbar-dark .navbar-nav .nav-link:hover {
-     /* color: #03cafc; */
-     font-weight: 500;
-}
-
-.navigation.navbar-dark .navbar-nav .active>.nav-link,
-.navigation.navbar-dark .navbar-nav .nav-link.active,
-.navigation.navbar-dark .navbar-nav .nav-link.show,
-.navigation.navbar-dark .navbar-nav .show>.nav-link {
-     font-weight: 500;
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+     text-shadow: 0.5px 0 0 currentColor;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -222,7 +225,7 @@ button {
 .logo {
      font-size: 30;
      font-weight: 700;
-     padding: 30px 50px;
+     padding: 30px 100px;
      position: absolute;
 }
 
@@ -232,7 +235,19 @@ button {
 .banner_main {
      width:100vw; 
      background: #fff;
-     padding: 150px 0px 15px 0px;
+     padding: 15px 0px 15px 0px;
+}
+
+.banner_main#home{
+     padding: 150px 0px 100px 0px;
+}
+
+.banner_main#publications{
+     padding: 35px 0px 100px 0px;
+}
+
+.banner_main#projects{
+     padding: 0px 0px 100px 0px;
 }
 
 .container {
@@ -254,54 +269,30 @@ button {
      text-transform: uppercase;
 }
 
-.text-bg .read_more {
-     border: #56524D solid 2px;
-     color: #56524D !important;
-     font-weight: 500;
-     display: block;
-     margin: 0 auto;
-     margin-top: 44px;
+.space{
+     margin:150px;
 }
-
-
 
 /** end banner section **/
-
-.titlepage h2 {
-     font-size: 35px;
-     color: #56524D;
-     line-height: 45px;
-     font-weight: bold;
-     padding: 0;
+#publications{
+     margin-top: 0;
 }
 
-.d_flex {
-     display: flex;
-     align-items: center;
-     flex-wrap: wrap;
+.publications-content{
+     width: 86%;
+     padding-left: 100px;
 }
 
-.read_more {
-     font-size: 17px;
-     background-color: transparent;
-     border: #ffffff solid 2px;
-     color: #56524D;
-     padding: 15px 0px;
-     width: 100%;
-     max-width: 222px;
-     text-align: center;
-     display: inline-block;
-     transition: ease-in all 0.5s;
+.publ{
+     font-family: 'Roboto', sans-serif;
+     font-size: 20px;
+     font-weight: 100;
+     padding-bottom: 20px;
+}
+
+.author{
      font-weight: 500;
-     border-radius: 40px;
 }
-
-.read_more:hover {
-     background: #03cafc;
-     color: #fff !important;
-     transition: ease-in all 0.5s;
-}
-
 
 /** about section **/
 
@@ -364,8 +355,8 @@ button {
      padding-top: 10px;
 }
 
-.blu {
-     color: #03cafc;
+.red {
+     color: #DB504A;
      text-transform: initial;
 }
 
