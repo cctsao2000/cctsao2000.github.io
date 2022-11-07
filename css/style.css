@@ -250,6 +250,14 @@ button {
      padding: 0px 0px 100px 0px;
 }
 
+.banner_main#ideas{
+     padding: 0px 0px 100px 0px;
+}
+
+.banner_main#about{
+     padding: 0px 0px 100px 0px;
+}
+
 .container {
      margin: 0px auto;
 }
@@ -508,10 +516,14 @@ button {
      width: 50%;
 }
 
+.column-techproject {
+     float: left;
+     width: 50%;
+}
+
 .column-3 {
      float: left;
-     width: 33.3%;
-     /* padding-left: 10px; */
+     width: 25%;
 }
 
 .column-profile {
@@ -523,7 +535,12 @@ button {
      float: left;
      width: 45%;
 }
-   
+
+.vl {
+     border-left: 2px solid #CCC5B9;
+     height: 300px;
+}
+
    /* Clear floats after the columns */
 .row:after {
      content: "";
@@ -555,6 +572,15 @@ button {
 .contact {
      float: right;
      padding-right: 50px;
+}
+
+.contact ul {
+     display: flex;
+}
+
+.contact ul li{
+     margin-right:5%;
+     padding-right: 10;
 }
 
 
