@@ -97,6 +97,7 @@ ol {
      margin: 0px;
      padding: 0px;
      list-style: none;
+     font-size: 17px;
 }
 
 p {
@@ -298,6 +299,13 @@ button {
      padding-bottom: 20px;
 }
 
+.prol{
+     font-family: 'Roboto', sans-serif;
+     font-size: 18px;
+     font-weight: 100;
+     padding-bottom: 10px;
+}
+
 .author{
      font-weight: 500;
 }
@@ -343,173 +351,21 @@ button {
 
 /** end about section **/
 
-
-/** Our  Glasses section **/
-
-.glasses {
-     background: #fff;
-     margin-top: 90px;
-}
-
-.glasses .titlepage {
-     text-align: center;
-     padding-bottom: 60px;
-}
-
-.glasses .titlepage p {
-     font-size: 17px;
-     line-height: 30px;
-     font-weight: 400;
-     padding-top: 10px;
-}
-
 .red {
      color: #DB504A;
      text-transform: initial;
 }
 
-.glasses .glasses_box {
-     text-align: center;
-     border: #555556 solid 1px;
-     border-radius: 2px;
-     padding: 120px 0px 30px 0px;
-     margin-bottom: 30px;
+.padding_left30 {
+     padding-top: 5px;
+     padding-left: 30px;
 }
 
-.glasses .glasses_box figure {
-     margin: 0;
-}
-
-.glasses .glasses_box h3 {
-     color: #100d0d;
-     font-size: 22px;
-     line-height: 20px;
-     padding: 70px 0px 9px 0px;
-}
-
-.glasses .glasses_box p {
-     color: #2a2a2c;
-     font-size: 18px;
-     line-height: 28px;
-     font-weight: 400;
-}
-
-.glasses .read_more {
-     border: #1a1a1a solid 2px;
-     font-weight: 500;
-     display: block;
-     margin: 0 auto;
-     margin-top: 44px;
-}
-
-
-/** end Our  Glasses section **/
-
-
-/** Our shop section **/
-
-.shop {
-     margin-top: 90px;
-     background: #fefdf9;
-     border-top: #f2f1ed solid 1px;
-     border-bottom: #f2f1ed solid 1px;
-}
-
-.shop .shop_img figure {
-     margin: 0;
-}
-
-.shop .shop_img figure img {
-     width: 100%;
-}
-
-.padding_right0 {
-     padding-right: 0;
-}
-
-.shop .max_width {
-     text-align: left;
-     background: #030404;
-     height: 100%;
-     padding-top: 86px;
-     padding-left: 50px;
-     padding-bottom: 90px;
-     display: flex;
-     flex-wrap: wrap;
-}
-
-.shop .titlepage {
-     max-width: 612px;
-     width: 100%;
-     float: left;
-}
-
-.shop .titlepage h2 {
-     padding-bottom: 10px;
-     float: left;
-     clear: both;
-}
-
-.shop .titlepage p {
+.project_list{
+     padding-top: 5px;
+     padding-left: 30px;
      font-size: 17px;
-     line-height: 30px;
-     padding: 40px 0px 80px 0;
-     width: 100%;
-     display: inline-block;
 }
-
-
-/** end Our shop section **/
-
-
-/** clients section **/
-
-.clients {
-     padding: 90px 0 70px 0;
-}
-
-.clients .titlepage {
-     text-align: center;
-     padding-bottom: 60px;
-}
-
-.clients .titlepage p {
-     color: #2a2a2c;
-     font-size: 17px;
-     line-height: 29px;
-     padding-top: 10px;
-}
-
-.clients_box h3 {
-     color: #2a2a2c;
-     font-size: 26px;
-     line-height: 30px;
-     padding-top: 23px;
-     font-weight: 600;
-}
-
-.clients_box p {
-     color: #2a2a2c;
-     font-size: 17px;
-     line-height: 30px;
-}
-
-.clients_box {
-     border: #606060 solid 1px;
-     padding: 40px 32px 40px 0px;
-     float: left;
-     text-align: left;
-     margin-left: 89px;
-}
-
-.clients_box figure {
-     margin: 0;
-     float: left;
-     margin-left: -102px;
-     padding-right: 30px;
-}
-
-/** end clients section **/
 
 .column {
      float: left;
@@ -518,12 +374,12 @@ button {
 
 .column-techproject {
      float: left;
-     width: 50%;
+     width: 40%;
 }
 
 .column-3 {
      float: left;
-     width: 25%;
+     width: 30%;
 }
 
 .column-profile {
@@ -537,8 +393,8 @@ button {
 }
 
 .vl {
-     border-left: 2px solid #CCC5B9;
-     height: 300px;
+     border-left: 1px solid #CCC5B9;
+     height: 220px;
 }
 
    /* Clear floats after the columns */
