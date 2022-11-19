@@ -95,7 +95,6 @@ ul,
 li,
 ol {
      margin: 0px;
-     padding: 0px;
      list-style: none;
      font-size: 17px;
 }
@@ -304,52 +303,27 @@ button {
      font-size: 18px;
      font-weight: 100;
      padding-bottom: 10px;
+     padding-left: 10px;
+     height: 220px;
+     float: left;
+     width: 33%;
+     border: rgb(115, 115, 115) 1px solid;
+}
+
+.prol-empty{
+     font-family: 'Roboto', sans-serif;
+     font-size: 18px;
+     font-weight: 100;
+     padding-bottom: 10px;
+     padding-left: 10px;
+     height: 220px;
+     float: left;
+     width: 33%;
 }
 
 .author{
      font-weight: 500;
 }
-
-/** about section **/
-
-.about {
-     border-bottom: #56524D solid 1px;
-     padding: 130px 0 90px 0;
-}
-
-.about .about_img {
-     margin-left: -40px;
-}
-
-.about .about_img figure {
-     margin: 0;
-}
-
-.about .titlepage {
-     border: #56524D solid 1px;
-     padding: 40px 40px;
-     z-index: 10018;
-     background: #fff;
-     margin-right: 40px;
-}
-
-.about .titlepage p {
-     color: #56524D;
-     font-size: 17px;
-     line-height: 35px;
-     font-weight: 400;
-     padding-top: 20px;
-}
-
-.about .read_more {
-     border: #56524D solid 2px;
-     color: #56524D;
-     font-weight: 500;
-     margin-top: 44px;
-}
-
-
-/** end about section **/
 
 .red {
      color: #DB504A;
@@ -362,19 +336,14 @@ button {
 }
 
 .project_list{
-     padding-top: 5px;
-     padding-left: 30px;
+     padding-top: 20px;
+     padding-left: 20px;
      font-size: 17px;
 }
 
 .column {
      float: left;
      width: 50%;
-}
-
-.column-techproject {
-     float: left;
-     width: 40%;
 }
 
 .column-3 {
@@ -392,11 +361,6 @@ button {
      width: 45%;
 }
 
-.vl {
-     border-left: 1px solid #CCC5B9;
-     height: 220px;
-}
-
    /* Clear floats after the columns */
 .row:after {
      content: "";
@@ -405,6 +369,9 @@ button {
 }
 
 /** footer **/
+footer{
+     padding-top: 20px;
+}
 
 .copyright {
      margin-top: 80px;
@@ -428,6 +395,10 @@ button {
 .contact {
      float: right;
      padding-right: 50px;
+}
+
+.icon-link{
+     padding-top: 20px;
 }
 
 .contact ul {
