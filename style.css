@@ -126,7 +126,7 @@ img {
 }
 
 button {
-     background-color: #fff;
+     background-color: transparent;
      border: 0;
      margin: 0;
      padding: 0;
@@ -226,7 +226,7 @@ button {
 }
 
 .banner_main#projects{
-     padding: 0px 0px 750px 0px;
+     padding: 0px 0px 800px 0px;
 }
 .banner_main#honors{
      padding: 0px 0px 0px 0px;
@@ -285,11 +285,11 @@ button {
      font-family: 'Roboto', sans-serif;
      font-size: 18px;
      font-weight: 100;
-     padding: 10px;
+     padding-top: 5px;
      padding-left: 15px;
      margin-right: 20px;
      margin-bottom: 20px;
-     height: 220px;
+     height: 240px;
      float: left;
      width: 30%;
      border-bottom: rgb(230, 230, 230) 1px solid;
@@ -304,6 +304,28 @@ button {
      height: 220px;
      float: left;
      width: 31%;
+}
+
+#ib{
+     background-image: url("images/ib.png");
+     background-repeat: no-repeat;
+     background-size: 360px;
+     background-position: 50% 80%;
+}
+
+#tm-hri{
+     background-image: url("images/ichri_posterImage.jpg");
+     background-repeat: no-repeat;
+     background-size: 320px;
+     background-position: 50% 80%;
+}
+
+#dm-hrc{
+     color: #fff;
+     background-image: url("images/eeg2.jpeg");
+     background-repeat: no-repeat;
+     background-size: 360px;
+     background-position: 50% 100%;
 }
 
 .honor-list {
