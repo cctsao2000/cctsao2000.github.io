@@ -14,10 +14,13 @@
 html {
      scroll-behavior: smooth;
      overflow-x: hidden;
-     background: #fff;
      width: 100%;
      padding: 0;
      margin: 0;
+     background-image: url("images/bg-line.png");
+     background-repeat: no-repeat;
+     background-size: 1300px;
+     background-position: 50% -7%;
 }
 
 body {
@@ -45,10 +48,7 @@ a {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
      font-family: "Noto Sans TC", sans-serif;;
      letter-spacing: 0;
      position: relative;
@@ -72,18 +72,6 @@ h3 {
      font-size: 18px;
 }
 
-h4 {
-     font-size: 16px
-}
-
-h5 {
-     font-size: 14px
-}
-
-h6 {
-     font-size: 13px
-}
-
 button:focus {
      outline: none;
 }
@@ -93,14 +81,13 @@ li,
 ol {
      margin: 0px;
      list-style: none;
-     font-size: 17px;
+     font-size: 18px;
 }
 
 p {
      margin: 0px;
      font-size: 12px;
      line-height: 12px;
-     color: #fff;
 }
 
 .btn {
@@ -127,7 +114,7 @@ img {
      background-color: transparent !important;
      border: 2px solid #ddd;
      padding: 12px 40px;
-     font-size: 16px;
+     font-size: 18px;
 }
 
 .lead {
@@ -151,21 +138,18 @@ button {
 
 .profile-pic{
      padding-left: 100px;
-}
-
-.intro{
-     padding-top: 40px;
+     padding-top: 10px;
 }
 
 .name{
      font-family: "Noto Sans TC", sans-serif;
-     font-size: 32px;
+     font-size: 28px;
      font-weight: 300;
 }
 
 .intro-content{
      font-family: 'Roboto', sans-serif;
-     font-size: 20px;
+     font-size: 18px;
      font-weight: 100;
 }
 
@@ -229,7 +213,6 @@ button {
 
 .banner_main {
      width:100vw; 
-     background: #fff;
      padding: 15px 0px 15px 0px;
 }
 
@@ -289,7 +272,7 @@ button {
 
 .publ{
      font-family: 'Roboto', sans-serif;
-     font-size: 20px;
+     font-size: 18px;
      font-weight: 100;
      padding-bottom: 20px;
 }
@@ -332,7 +315,7 @@ button {
      list-style:disc;
      text-indent: hanging;
      font-family: 'Roboto', sans-serif;
-     font-size: 20px;
+     font-size: 18px;
      font-weight: 100;
      padding-bottom: 10px;
 }
@@ -354,7 +337,7 @@ button {
 .project_list{
      padding-top: 20px;
      padding-left: 20px;
-     font-size: 17px;
+     font-size: 18px;
 }
 
 .column {
@@ -369,7 +352,7 @@ button {
 
 .column-profile {
      float: left;
-     width: 40%;
+     width: 35%;
 }
 
 .column-intro {
