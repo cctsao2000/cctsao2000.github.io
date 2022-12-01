@@ -226,7 +226,7 @@ button {
 }
 
 .banner_main#projects{
-     padding: 0px 0px 800px 0px;
+     padding: 0px 0px 550px 0px;
 }
 .banner_main#honors{
      padding: 0px 0px 0px 0px;
@@ -288,7 +288,6 @@ button {
      padding-top: 5px;
      padding-left: 15px;
      margin-right: 20px;
-     margin-bottom: 20px;
      height: 240px;
      float: left;
      width: 30%;
@@ -321,12 +320,34 @@ button {
 }
 
 #dm-hrc{
-     color: #fff;
      background-image: url("images/eeg2.jpeg");
      background-repeat: no-repeat;
      background-size: 360px;
      background-position: 50% 100%;
 }
+
+#ar-eeg{
+     background-image: url("images/eeg1.jpeg");
+     background-repeat: no-repeat;
+     background-size: 360px;
+     background-position: 50% 100%;
+}
+
+#ds4cs{
+     background-image: url("images/ds4cs.png");
+     background-repeat: no-repeat;
+     background-size: 320px;
+     background-position: 50% 90%;
+}
+
+#plan{
+     background-image: url("images/2018_youth_conference.jpeg");
+     background-repeat: no-repeat;
+     background-size: 360px;
+     background-position: 50% 100%;
+}
+
+
 
 .honor-list {
      padding-left: 140px;
@@ -357,7 +378,7 @@ button {
 }
 
 .project_list{
-     padding-top: 20px;
+     padding-top: 10px;
      padding-left: 20px;
      font-size: 18px;
 }
