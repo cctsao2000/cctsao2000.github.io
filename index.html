@@ -23,16 +23,16 @@
             <nav class="navigation navbar navbar-expand-md navbar-dark" id="main-menu">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
+                        <a class="nav-link active" id="home-nav" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#publications">Publications</a>
+                        <a class="nav-link" id="pub-nav" href="#publications">Publications</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" id="pro-nav" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#honors">Honors</a>
+                        <a class="nav-link" id="honors-nav" href="#honors">Honors</a>
                     </li>
                 </ul>
             </nav>
@@ -41,6 +41,26 @@
                 $("#main-menu a").click(function() {
                     $('.nav-link.active').removeClass('active');
                     $(this).addClass("active");
+                });
+                $(document).scroll(function() {
+                    if($(window).scrollTop() > 1300 && $(window).scrollTop() < 1630){
+                        $('.nav-link').css("color","white");
+                    } else {
+                        $('.nav-link').css("color","#56524D");
+                    }
+                    if($(window).scrollTop() < 400){
+                        $('.nav-link.active').removeClass('active');
+                        $('#home-nav').addClass("active");
+                    } else if($(window).scrollTop() > 600 && $(window).scrollTop() < 800){
+                        $('.nav-link.active').removeClass('active');
+                        $('#pub-nav').addClass("active");
+                    } else if($(window).scrollTop() > 1300 && $(window).scrollTop() < 1800){
+                        $('.nav-link.active').removeClass('active');
+                        $('#pro-nav').addClass("active");
+                    } else if($(window).scrollTop() > 2000){
+                        $('.nav-link.active').removeClass('active');
+                        $('#honors-nav').addClass("active");
+                    }
                 });
             </script>
         </div>
@@ -76,12 +96,12 @@
                                 <a href="https://gsechien.github.io/index.html" target="_blank" class="link-out">Shih-Yi Chien</a>.
                                 My research interests focus on Human-Automation Decision Making, with particular attention to Human-Robot Collaboration (HRC) and Cognitive Enhancement. 
                                 My previous research projects utilized EEG analysis to assess user behavior and decision-making strategies during HRC.
-                                Here is my <a href="files/cctsao_cv_1211.pdf" target="_blank" class="link-out">Curriculum Vitae</a>.
+                                Here is my <a href="files/cctsao_cv_1214.pdf" target="_blank" class="link-out">Curriculum Vitae</a>.
                                 <p>&nbsp;</p>
                                 Email: cctsao2000[at]gmail[dot]com
                                 <br>
                                 Link:
-                                [<a href="files/cctsao_cv_1107.pdf" target="_blank" class="link-out">Curriculum Vitae</a>]
+                                [<a href="files/cctsao_cv_1214.pdf" target="_blank" class="link-out">Curriculum Vitae</a>]
                                 [<a href="https://github.com/cctsao2000" target="_blank" class="link-out">Github</a>]
                                 [<a href="https://www.linkedin.com/in/ching-chih-amber-tsao/" target="_blank" class="link-out">Linkedin</a>]
                             </span>
