@@ -153,7 +153,7 @@ button {
      font-weight: 100;
 }
 
-.link-out:hover{
+.link-out:hover,.link-out2:hover{
      text-decoration-line: underline;
 }
 
@@ -171,7 +171,8 @@ button {
      position: fixed;
      text-align: right;
      clear: both;
-     padding-left: 84%;
+     float: right;
+     right: 1%;
 }
 
 .navbar-nav .nav-link {
