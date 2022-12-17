@@ -161,6 +161,16 @@ button {
      font-weight: 400;
 }
 
+.project_list .link-out{
+     color: #56524D;
+}
+
+.project_list .link-out:hover{
+     color: #6184D8;
+     text-decoration-line:none;
+     transition: none;
+}
+
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 
@@ -318,8 +328,8 @@ button {
 #ib{
      background-image: url("images/ib.png");
      background-repeat: no-repeat;
-     background-size: 340px;
-     background-position: 50% 95%;
+     background-size: 330px;
+     background-position: 50% 92%;
 }
 
 #tm-hri{
@@ -332,21 +342,21 @@ button {
 #dm-hrc{
      background-image: url("images/eeg2.jpeg");
      background-repeat: no-repeat;
-     background-size: 360px;
-     background-position: 50% 100%;
+     background-size: 340px;
+     background-position: 50% 87%;
 }
 
 #ar-eeg{
      background-image: url("images/eeg1.jpeg");
      background-repeat: no-repeat;
-     background-size: 360px;
-     background-position: 50% 100%;
+     background-size: 350px;
+     background-position: 50% 85%;
 }
 
 #ds4cs{
      background-image: url("images/ds4cs.png");
      background-repeat: no-repeat;
-     background-size: 320px;
+     background-size: 310px;
      background-position: 50% 90%;
 }
 
@@ -428,12 +438,8 @@ button {
      clear: both;
 }
 
-footer{
-     padding-top: 20px;
-}
-
 .copyright {
-     margin-top: 80px;
+     margin-top: 60px;
      padding-bottom: 20px;
 }
 
