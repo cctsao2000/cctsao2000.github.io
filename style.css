@@ -308,14 +308,15 @@ button {
 }
 
 .prol-empty{
-     font-family: 'Roboto', sans-serif;
-     font-size: 18px;
-     font-weight: 100;
-     padding-bottom: 10px;
-     padding-left: 10px;
-     height: 220px;
+     font-weight: 400;
+     padding-top: 10px;
+     padding-left: 20px;
+     padding-right: 15px;
+     margin-right: 15px;
+     margin-bottom: 20px;
+     height: 300px;
      float: left;
-     width: 30%;
+     width: 28%;
 }
 
 #ib{
@@ -352,15 +353,6 @@ button {
      background-size: 310px;
      background-position: 50% 90%;
 }
-
-#plan{
-     background-image: url("images/2018_youth_conference.jpeg");
-     background-repeat: no-repeat;
-     background-size: 360px;
-     background-position: 50% 100%;
-}
-
-
 
 .honor-list {
      padding-left: 140px;
