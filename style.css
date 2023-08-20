@@ -331,11 +331,18 @@ button {
      width: 28%;
 }
 
+#chatgpt{
+     background-image: url("images/eeg3.jpeg");
+     background-repeat: no-repeat;
+     background-size: 360px;
+     background-position: 50% 0%;
+}
+
 #ib{
      background-image: url("images/ib.png");
      background-repeat: no-repeat;
      background-size: 330px;
-     background-position: 50% 5%;
+     background-position: 50% 0%;
 }
 
 #tm-hri{
