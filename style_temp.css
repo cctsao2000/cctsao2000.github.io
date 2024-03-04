@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,700i,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,700i,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700,700i,900&display=swap');
 @import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
 
@@ -12,13 +12,10 @@ html {
      width: 100%;
      padding: 0;
      margin: 0;
-     background-repeat: no-repeat;
-     background-size: 1300px;
-     background-position: 50% -7%;
 }
 
 body {
-     color: #56524D;
+     color: #000;
      font-size: 14px;
      font-family: 'Roboto', sans-serif;
      line-height: 1.80857;
@@ -49,7 +46,7 @@ h3 {
      padding: 0 0 10px 0;
      font-weight: normal;
      line-height: normal;
-     color: #56524D;
+     color: #000;
      margin: 0
 }
 
@@ -60,6 +57,7 @@ h1 {
 h2 {
      font-size: 26px;
      font-weight: 300;
+     padding-top: 5px;
 }
 
 h3 {
@@ -114,7 +112,7 @@ img {
 .lead {
      font-size: 18px;
      line-height: 30px;
-     color: #56524D;
+     color: #000;
      margin: 0;
      padding: 0;
 }
@@ -157,7 +155,7 @@ button {
 
 .project_list .link-out{
      padding-top: 180px;
-     color: #56524D;
+     color: #000;
      font-size: 16px;
      line-height:1.5;
 }
@@ -178,24 +176,20 @@ button {
      line-height:1.3;
 }
 
-/*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
-
-
-/*-- navigation--*/
-
 .navigation.navbar {
      font-family: 'Roboto Mono';
      position: fixed;
      text-align: right;
      clear: both;
      float: right;
-     right: 5px;
+     right: 2%;
+     top: 4%;
 }
 
 .navbar-nav .nav-link {
      width: 30%;
      padding: 0 20px;
-     color: #56524D;
+     color: #000;
      font-size: 16px;
      line-height: 30px;
      font-weight: 300;
@@ -222,7 +216,7 @@ button {
 .logo {
      font-size: 30;
      font-weight: 700;
-     padding: 40px 100px;
+     padding: 3% 6%;
      position: absolute;
 }
 
@@ -263,7 +257,7 @@ button {
 }
 
 .text-bg h1 {
-     color: #56524D;
+     color: #000;
      font-size: 60px;
      line-height: 76px;
      padding-bottom: 45px;
@@ -401,11 +395,6 @@ button {
      font-size: 18px;
 }
 
-.column {
-     float: left;
-     width: 50%;
-}
-
 .column-3 {
      float: left;
      width: 30%;
@@ -421,51 +410,36 @@ button {
      width: 45%;
 }
 
-.row {
-     float: left;
-     width: 100%;
-     margin-left: 20px;
-     margin-top: 30px;
-     margin-bottom: 20px;
+footer{
+    width: 100%;
+    font-weight: 300;
+    background-color: #f0f0f0;
+    position: absolute;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    padding-top: 3%;
+    padding-bottom: 1%;
 }
 
-   /* Clear floats after the columns */
-.row:after {
-     content: "";
-     display: table;
-     clear: both;
+#quote {
+    text-align: center;
+    font-size: large;
+    font-weight: 300;
+    font-style: italic;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.copyright {
-     margin-top: 60px;
-     padding-bottom: 10px;
+#copyright {
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-size: small;
+    font-style: normal;
 }
 
-.copyright p {
-     color: #56524D;
-     font-size: 18px;
-     line-height: 22px;
-     text-align: left;
-     padding-top: 25px;
-     padding-left:50px;
-     font-weight: normal;
-}
-
-.copyright a {
-     color: #56524D;
-}
-
-.contact {
-     float: right;
-     padding-top: 25px;
-     padding-right: 100px;
-}
-
-.contact ul {
-     display: flex;
-}
-
-.icon-link img{
-     padding-left: 15px;
-     margin-bottom: 20px;
+.medium-italic{
+    font-size: medium;
 }
