@@ -204,6 +204,21 @@ hr{
      color: #858585;
 }
 
+.project-cover{
+     border-radius:10%
+}
+
+.project-tag {
+     text-align: center;
+     font-size: 75%;
+     font-weight: 400;
+     width: 40%;
+     height: 15%;
+     background: #ddd;
+     border-radius: 1rem;
+     margin-right: 0.2rem;
+}
+
 .publ .link-out {
      font-weight: 400;
 }
@@ -259,6 +274,15 @@ hr{
 .navbar-expand-md .navbar-nav {
      padding-right: 1%;
 }
+
+.honor-source {
+     line-height: 80%;
+     padding-bottom: 10px;
+     color: #707070;
+     font-size: 14px;
+     font-style: italic;
+}
+
 
 .header {
      width: 100vw;
