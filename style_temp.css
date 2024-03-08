@@ -128,15 +128,52 @@ button {
 
 /*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
 
+section {
+     margin-left: 5%;
+     margin-right: 20%;
+}
+
+#home {
+     padding-top: 150px;
+     margin-bottom: 40px;
+}
+
+#news {
+     margin-left: 7%;
+     margin-right: 23%;
+     margin-bottom: 40px;
+     font-size: 20px;
+     font-weight: 400;
+}
+
+.news-content {
+     padding-left: 5px;
+}
+
+.news-content li {
+     font-size: 16px;
+     font-weight: 300;
+}
+
+.yr-mon {
+     font-weight: 400;
+}
+
+hr{
+     border: 1px solid #bbb;
+     margin: 0.5rem 0;
+}
+
 .profile-pic{
-     padding-left: 100px;
-     padding-top: 10px;
+     padding-left: 30px;
+     padding-top: 12px;
+     width: 90%;
 }
 
 .name{
      font-family: "Noto Sans TC", sans-serif;
-     font-size: 28px;
-     font-weight: 300;
+     font-size: 32px;
+     font-weight: 500;
 }
 
 .intro-content{
@@ -147,6 +184,24 @@ button {
 
 .link-out:hover,.link-out2:hover{
      text-decoration-line: underline;
+     color: #6184D8;
+}
+
+.link-tag {
+     text-align: center;
+     color: #fff;
+     font-weight: 400;
+     background: #000;
+     border-radius: 1rem;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     padding-top: 0.2rem;
+     padding-bottom: 0.2rem;
+     margin-right: 0.2rem;
+}
+
+.link-tag:hover{
+     color: #858585;
 }
 
 .publ .link-out {
@@ -218,19 +273,6 @@ button {
      font-weight: 700;
      padding: 3% 6%;
      position: absolute;
-}
-
-
-/** banner section **/
-
-.banner_main {
-     width:100vw; 
-     padding: 15px 0px 15px 0px;
-}
-
-.banner_main#home{
-     padding: 150px 0px 100px 0px;
-     margin-bottom: 380px;
 }
 
 .banner_main#publications{
@@ -402,19 +444,19 @@ button {
 
 .column-profile {
      float: left;
-     width: 35%;
+     width: 30%;
 }
 
 .column-intro {
      float: left;
-     width: 45%;
+     width: 50%;
 }
 
 footer{
     width: 100%;
     font-weight: 300;
     background-color: #f0f0f0;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     margin-left: auto;
     margin-right: auto;
