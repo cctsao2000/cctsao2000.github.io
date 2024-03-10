@@ -36,15 +36,9 @@ function responsiveHome() {
     profilePic.style.maxWidth = mql.matches ? "320px" : "240px";
     var linkTagList = document.getElementsByClassName("link-tag");
     linkTagList[0].style.color = mql.matches ? "#fff" : "#000";
-    linkTagList[0].style.background = mql.matches ? "#000" : "#fff";
-    linkTagList[0].style.fontWeight = mql.matches ? "" : "bold";
-    linkTagList[0].style.fontSize = mql.matches ? "18px" : "20px";
-    linkTagList[1].innerHTML = mql.matches ? "GitHub" : "<img src='icon/github.png' width='22px'>";
-    linkTagList[1].style.background = mql.matches ? "#000" : "#fff";
-    linkTagList[2].innerHTML = mql.matches ? "LinkedIn" : "<img src='icon/linkedin.png' width='22px'>";
-    linkTagList[2].style.background = mql.matches ? "#000" : "#fff";
-    linkTagList[3].innerHTML = mql.matches ? "Google Scholar" : "<img src='icon/google-scholar.png' width='20px'>";
-    linkTagList[3].style.background = mql.matches ? "#000" : "#fff";
+    linkTagList[1].innerHTML = mql.matches ? "GitHub" : "<img src='icon/github.png' width='24px' style='transform: translateY(10%);'>";
+    linkTagList[2].innerHTML = mql.matches ? "LinkedIn" : "<img src='icon/linkedin.png' width='24px' style='transform: translateY(10%);'>";
+    linkTagList[3].innerHTML = mql.matches ? "Google Scholar" : "<img src='icon/google-scholar.png' width='22px' style='transform: translateY(10%);'>";
 }
 
 mql.onchange = responsive;

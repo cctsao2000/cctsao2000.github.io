@@ -399,62 +399,6 @@ hr{
      width: 28%;
 }
 
-#chatgpt{
-     background-image: url("images/eeg3.jpeg");
-     background-repeat: no-repeat;
-     background-size: 360px;
-     background-position: 50% 0%;
-}
-
-#ib{
-     background-image: url("images/ib.png");
-     background-repeat: no-repeat;
-     background-size: 330px;
-     background-position: 50% 0%;
-}
-
-#tm-hri{
-     background-image: url("images/ichri_posterImage.jpg");
-     background-repeat: no-repeat;
-     background-size: 320px;
-     background-position: 50% 10%;
-}
-
-#dm-hrc{
-     background-image: url("images/eeg2.jpeg");
-     background-repeat: no-repeat;
-     background-size: 360px;
-     background-position: 50% 0%;
-}
-
-#ar-eeg{
-     background-image: url("images/eeg1.jpeg");
-     background-repeat: no-repeat;
-     background-size: 360px;
-     background-position: 50% 0%;
-}
-
-#ds4cs{
-     background-image: url("images/ds4cs.png");
-     background-repeat: no-repeat;
-     background-size: 310px;
-     background-position: 50% 10%;
-}
-
-.honor-list {
-     padding-left: 140px;
-     width: 86%;
-}
-
-.honorl{
-     list-style:disc;
-     text-indent: hanging;
-     font-family: 'Roboto', sans-serif;
-     font-size: 18px;
-     font-weight: 100;
-     padding-bottom: 10px;
-}
-
 .highlight{
      font-weight: 500;
 }
@@ -462,11 +406,6 @@ hr{
 .red {
      color: #DB504A;
      text-transform: initial;
-}
-
-.padding_left30 {
-     padding-top: 5px;
-     padding-left: 30px;
 }
 
 .project_list{
@@ -524,7 +463,86 @@ footer{
     font-size: medium;
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
+     .link-tag {
+          font-size : 22px;
+          font-weight: 700;
+          background: #fff;
+          padding-left: 0rem;
+          padding-right: 0.5rem;
+          padding-top: 0rem;
+          padding-bottom: 0rem;
+          margin-right: 1rem;
+     }
 
-} */
+     p {
+          line-height: 14px;
+     }
+
+     .project-title {
+          font-size : 16px;
+          line-height: 20px;
+          padding-bottom: 0.5vh;
+          margin: 3px;
+     }
+
+     p.project-brief {
+          font-size : 12px;
+     }
+
+     .project-cover {
+          max-width: 220px;
+          margin: 3px;
+     }
+
+     .column.is-one-third{
+          padding-bottom: 0rem;
+     }
+
+     .column.pro-disc{
+          padding-top: 0rem;
+          padding-bottom: 3vh;
+     }
+
+     .project-tag {
+          margin-bottom: 20px;
+     }
+
+     #news {
+          padding-left: 2vw;
+          font-size: 18px;
+          font-weight: 400;
+     }
+     
+     .news-content li {
+          font-size: 14px;
+     }
+     
+     .honor-source {
+          font-size: 12px;
+     }
+
+     #quote {
+          padding-top: 2%;
+          text-align: center;
+          font-size: 14px;
+          font-weight: 300;
+          font-style: italic;
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+     }
+
+     .medium-italic{
+          font-size: 12px;
+     }
+      
+     #copyright {
+          padding-top: 4%;
+          padding-bottom: 2%;
+          font-size: x-small;
+          font-style: normal;
+     }
+     
+}
    
