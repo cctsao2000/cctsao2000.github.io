@@ -77,9 +77,19 @@ ol {
 }
 
 p {
-     margin: 0px;
-     font-size: 12px;
-     line-height: 12px;
+     margin: 3px;
+     font-size: 14px;
+     line-height: 18px;
+}
+
+p.project-brief {
+     padding-bottom: 5px;
+     text-align: justify;
+     color: #707070;
+}
+
+.project-title {
+     line-height: 26px;
 }
 
 .btn {
@@ -164,19 +174,19 @@ hr{
      margin: 0.5rem 0;
 }
 
-.profile-pic{
+#profile-pic{
      padding-left: 30px;
      padding-top: 12px;
      width: 90%;
 }
 
-.name{
+#name{
      font-family: "Noto Sans TC", sans-serif;
      font-size: 32px;
      font-weight: 500;
 }
 
-.intro-content{
+#intro-content{
      font-family: 'Roboto', sans-serif;
      font-size: 18px;
      font-weight: 100;
@@ -212,11 +222,14 @@ hr{
      text-align: center;
      font-size: 75%;
      font-weight: 400;
-     width: 40%;
-     height: 15%;
+     max-width: 10rem;
+     padding-top: 0.3rem;
+     padding-bottom: 0.3rem;
+     padding-left: 0.7rem;
+     padding-right: 0.7rem;
      background: #ddd;
      border-radius: 1rem;
-     margin-right: 0.2rem;
+     margin-right: 0.5rem;
 }
 
 .publ .link-out {
@@ -254,6 +267,7 @@ hr{
      float: right;
      right: 2%;
      top: 4%;
+     background: transparent;
 }
 
 .navbar-nav .nav-link {
@@ -292,10 +306,10 @@ hr{
      z-index: 999;
 }
 
-.logo {
+#logo {
      font-size: 30;
      font-weight: 700;
-     padding: 3% 6%;
+     padding: 3vw 6vw;
      position: absolute;
 }
 
@@ -509,3 +523,8 @@ footer{
 .medium-italic{
     font-size: medium;
 }
+
+/* @media screen and (max-width: 600px) {
+
+} */
+   
