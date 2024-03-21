@@ -8,16 +8,8 @@
         "linkToPdf": "https://doi.org/10.1145/3610978.3640742",
         "otherMaterials": [
             {
-                "name": "Slides",
-                "link": ""
-            },
-            {
-                "name": "Video",
-                "link": ""
-            },
-            {
-                "name": "Code",
-                "link": ""
+                "name": "Poster",
+                "link": "files/HRI24_Poster"
             }
         ]
     },
@@ -30,16 +22,12 @@
         "linkToPdf": "https://doi.org/10.1145/3568294.3580171",
         "otherMaterials": [
             {
-                "name": "Slides",
-                "link": ""
-            },
-            {
-                "name": "Video",
-                "link": ""
+                "name": "Poster",
+                "link": "files/HRI23_Poster"
             },
             {
                 "name": "Code",
-                "link": ""
+                "link": "https://github.com/cctsao2000/EEG-ImpulseBuying"
             }
         ]
     },
@@ -53,15 +41,15 @@
         "otherMaterials": [
             {
                 "name": "Slides",
-                "link": ""
+                "link": "files/HICSS_Slides.pdf"
             },
             {
                 "name": "Video",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=5JV5ooFpOgc"
             },
             {
                 "name": "Code",
-                "link": ""
+                "link": "https://github.com/cctsao2000/EEG-DecisionMakingHRC"
             }
         ]
     },
@@ -75,15 +63,11 @@
         "otherMaterials": [
             {
                 "name": "Slides",
-                "link": ""
-            },
-            {
-                "name": "Video",
-                "link": ""
+                "link": "files/HRI22_a_machine_learning_approach_to_model_hri_trends_in_2010-2021.pdf"
             },
             {
                 "name": "Code",
-                "link": ""
+                "link": "https://github.com/cctsao2000/TopicModel-HRIResearchTrend"
             }
         ]
     }
