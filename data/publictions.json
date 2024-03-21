@@ -8,16 +8,16 @@
         "linkToPdf": "https://doi.org/10.1145/3610978.3640742",
         "otherMaterials": [
             {
-                "Name": "Slides",
-                "Link": ""
+                "name": "Slides",
+                "link": ""
             },
             {
-                "Name": "Video",
-                "Link": ""
+                "name": "Video",
+                "link": ""
             },
             {
-                "Name": "Code",
-                "Link": ""
+                "name": "Code",
+                "link": ""
             }
         ]
     },
@@ -30,16 +30,16 @@
         "linkToPdf": "https://doi.org/10.1145/3568294.3580171",
         "otherMaterials": [
             {
-                "Name": "Slides",
-                "Link": ""
+                "name": "Slides",
+                "link": ""
             },
             {
-                "Name": "Video",
-                "Link": ""
+                "name": "Video",
+                "link": ""
             },
             {
-                "Name": "Code",
-                "Link": ""
+                "name": "Code",
+                "link": ""
             }
         ]
     },
@@ -52,16 +52,16 @@
         "linkToPdf": "https://hdl.handle.net/10125/102821",
         "otherMaterials": [
             {
-                "Name": "Slides",
-                "Link": ""
+                "name": "Slides",
+                "link": ""
             },
             {
-                "Name": "Video",
-                "Link": ""
+                "name": "Video",
+                "link": ""
             },
             {
-                "Name": "Code",
-                "Link": ""
+                "name": "Code",
+                "link": ""
             }
         ]
     },
@@ -74,16 +74,16 @@
         "linkToPdf": "https://doi.org/10.1109/HRI53351.2022.9889676",
         "otherMaterials": [
             {
-                "Name": "Slides",
-                "Link": ""
+                "name": "Slides",
+                "link": ""
             },
             {
-                "Name": "Video",
-                "Link": ""
+                "name": "Video",
+                "link": ""
             },
             {
-                "Name": "Code",
-                "Link": ""
+                "name": "Code",
+                "link": ""
             }
         ]
     }
