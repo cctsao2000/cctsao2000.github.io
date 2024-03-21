@@ -1,0 +1,90 @@
+[
+    {
+        "title": "Human-Robot Interaction in E-Commerce: The Role of Personality Traits and Chatbot Mechanisms – A Neuromarketing Research",
+        "publishYearMonth": "2024/03",
+        "authorship": "Yu-Wen Chang, Shih-Yi Chien, Yao-Cheng Chan, Ching-Chih Tsao",
+        "conference": "2024 ACM/IEEE International Conference on Human-Robot Interaction (HRI '24)",
+        "location": "Boulder, Colorado, USA",
+        "linkToPdf": "",
+        "otherMaterials": [
+            {
+                "Name": "Slides",
+                "Link": ""
+            },
+            {
+                "Name": "Video",
+                "Link": ""
+            },
+            {
+                "Name": "Code",
+                "Link": ""
+            }
+        ]
+    },
+    {
+        "title": "The Influence of a Robot Recommender System on Impulse Buying Tendency",
+        "publishYearMonth": "2023/03",
+        "authorship": "Ching-Chih Tsao, Cheng-Yi Tang, Yu-Wen Chang, Yin-Hsuan Sung, Shih-Yi Chien, Szu-Yin Lin",
+        "conference": "2023 ACM/IEEE International Conference on Human-Robot Interaction (HRI '23)",
+        "location": "Stockholm, Sweden",
+        "linkToPdf": "",
+        "otherMaterials": [
+            {
+                "Name": "Slides",
+                "Link": ""
+            },
+            {
+                "Name": "Video",
+                "Link": ""
+            },
+            {
+                "Name": "Code",
+                "Link": ""
+            }
+        ]
+    },
+    {
+        "title": "Assessing the Decision-Making Process in Human-Robot Collaboration Using a Lego-like EEG Headset",
+        "publishYearMonth": "2023/01",
+        "authorship": "Ching-Chih Tsao, Hao-Hsiang Chuang, Tsu-Han Tsao, Cheng-Yi Tang, Yu-Wen Chang, Chih-Ling Chu, Chi-Chien Sung, Cheng-Lin Hsieh, Yuan-Pin Lin, Shih-Yi Chien",
+        "conference": "56th Hawaii International Conference on System Sciences (HICSS-56)",
+        "location": "Maui, Hawaii, USA",
+        "linkToPdf": "",
+        "otherMaterials": [
+            {
+                "Name": "Slides",
+                "Link": ""
+            },
+            {
+                "Name": "Video",
+                "Link": ""
+            },
+            {
+                "Name": "Code",
+                "Link": ""
+            }
+        ]
+    },
+    {
+        "title": "A Machine Learning Approach to Model HRI Research Trends in 2010~2021",
+        "publishYearMonth": "2022/03",
+        "authorship": "Chan Hsu, Ching-Chih Tsao, Yu-Liang Weng, Cheng-Yi Tang, Yu-Wen Chang, Yihuang Kang, Shih-Yi Chien",
+        "conference": "2022 ACM/IEEE International Conference on Human-Robot Interaction (HRI '22)",
+        "location": "Online",
+        "linkToPdf": "",
+        "otherMaterials": [
+            {
+                "Name": "Slides",
+                "Link": ""
+            },
+            {
+                "Name": "Video",
+                "Link": ""
+            },
+            {
+                "Name": "Code",
+                "Link": ""
+            }
+        ]
+    }
+]

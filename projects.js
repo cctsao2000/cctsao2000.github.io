@@ -6,7 +6,7 @@ function responsive() {
 
 function responsiveLogo() {
     var logo = document.getElementById("logo");
-    var logoName = document.getElementById("logo-name");
+    // var logoName = document.getElementById("logo-name");
     // var sectionHome = document.getElementById("home");
     logo.style.paddingTop = mql.matches ? "3vw" : "7vw";
     logo.style.paddingLeft = mql.matches ? "6vw" : "11vw";
