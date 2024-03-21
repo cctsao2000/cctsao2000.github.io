@@ -35,7 +35,7 @@ function responsiveHome() {
     intro.parentElement.style.paddingLeft = mql.matches ? "0vw" : "8vw";;
     profilePic.style.maxWidth = mql.matches ? "320px" : "240px";
     var linkTagList = document.getElementsByClassName("link-tag");
-    linkTagList[0].style.color = mql.matches ? "#fff" : "#000";
+    linkTagList[0].innerHTML = mql.matches ? "CV" : "<span style='color: black;'>CV</span>";
     linkTagList[1].innerHTML = mql.matches ? "GitHub" : "<img src='icon/github.png' width='24px' style='transform: translateY(10%);'>";
     linkTagList[2].innerHTML = mql.matches ? "LinkedIn" : "<img src='icon/linkedin.png' width='24px' style='transform: translateY(10%);'>";
     linkTagList[3].innerHTML = mql.matches ? "Google Scholar" : "<img src='icon/google-scholar.png' width='22px' style='transform: translateY(10%);'>";

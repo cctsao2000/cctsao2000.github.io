@@ -83,6 +83,7 @@ p {
 }
 
 p.project-brief {
+     font-size: 14px;
      padding-bottom: 5px;
      text-align: justify;
      color: #707070;
@@ -119,14 +120,6 @@ img {
      font-size: 18px;
 }
 
-.lead {
-     font-size: 18px;
-     line-height: 30px;
-     color: #000;
-     margin: 0;
-     padding: 0;
-}
-
 button {
      background-color: transparent;
      border: 0;
@@ -149,8 +142,8 @@ section {
 }
 
 #news {
-     margin-left: 7%;
-     margin-right: 23%;
+     margin-left: 3%;
+     margin-right: 20%;
      margin-bottom: 40px;
      font-size: 20px;
      font-weight: 400;
@@ -170,7 +163,8 @@ section {
 }
 
 hr{
-     border: 1px solid #bbb;
+     height: 0.1rem;
+     background-color: #bbb;
      margin: 0.5rem 0;
 }
 
@@ -232,31 +226,36 @@ hr{
      margin-right: 0.5rem;
 }
 
-.publ .link-out {
-     font-weight: 400;
+.pub-list {
+     padding-left: 1%;
 }
 
-.project_list .link-out{
-     padding-top: 180px;
+.pub-tag {
      color: #000;
+     text-align: center;
+     font-size: 75%;
+     font-weight: 400;
+     max-width: 10rem;
+     padding-top: 0.15rem;
+     padding-bottom: 0.15rem;
+     padding-left: 0.7rem;
+     padding-right: 0.7rem;
+     background: #ddd;
+     border-radius: 1rem;
+     margin-right: 0.2rem;
+}
+
+.pub-title{
+     color: #000;
+     font-size: 18px;
+}
+
+.pub-author{
      font-size: 16px;
-     line-height:1.5;
 }
 
-.project_list .link-out:hover{
-     color: #6184D8;
-     text-decoration-line:none;
-     box-shadow: 1px 1px 10px 1px rgb(230, 230, 230);
-}
-
-.project_list .link-out#ds4cs{
-     padding-top: 205px;
-}
-
-.proj-description{
-     padding-top: 10px;
-     color: #858585;
-     line-height:1.3;
+.pub-conf{
+     font-size: 16px;
 }
 
 .navigation.navbar {
@@ -313,41 +312,6 @@ hr{
      position: absolute;
 }
 
-.banner_main#publications{
-     padding: 40px 0px 100px 0px;
-}
-
-.banner_main#projects{
-     padding: 0px 0px 700px 0px;
-}
-.banner_main#honors{
-     padding: 20px 0px 30px 0px;
-}
-.banner_main#service{
-     padding: 0px 0px 0px 0px;
-}
-.container {
-     margin: 0px auto;
-}
-
-.text-bg {
-     margin: 0 auto;
-     text-align: left;
-     padding: 0px 0px 0px 50px;
-}
-
-.text-bg h1 {
-     color: #000;
-     font-size: 60px;
-     line-height: 76px;
-     padding-bottom: 45px;
-     font-weight: bold;
-     text-transform: uppercase;
-}
-
-.space{
-     margin:150px;
-}
 
 /** end banner section **/
 #publications{
@@ -358,11 +322,6 @@ hr{
      width: 86%;
      padding-left: 100px;
      padding-top: 10px;
-}
-
-.pub-list {
-     padding-left: 0px;
-     padding-top: 20px;
 }
 
 .publ{
