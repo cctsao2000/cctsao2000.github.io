@@ -6,7 +6,7 @@
         "conference": "2024 ACM/IEEE International Conference on Human-Robot Interaction (HRI '24)",
         "location": "Boulder, Colorado, USA",
         "doi": "https://doi.org/10.1145/3610978.3640742",
-        "pdf": "",
+        "pdf": "https://cctsao2000.github.io/files/HRI24.pdf",
         "otherMaterials": [
             {
                 "name": "Poster",
@@ -22,11 +22,11 @@
         "conference": "2023 ACM/IEEE International Conference on Human-Robot Interaction (HRI '23)",
         "location": "Stockholm, Sweden",
         "doi": "https://doi.org/10.1145/3568294.3580171",
-        "pdf": "",
+        "pdf": "https://cctsao2000.github.io/files/HRI23.pdf",
         "otherMaterials": [
             {
                 "name": "Poster",
-                "link": "files/HRI23_Poster"
+                "link": "files/HRI23_Poster.pdf"
             },
             {
                 "name": "Code",
@@ -39,10 +39,10 @@
         "title": "Assessing the Decision-Making Process in Human-Robot Collaboration Using a Lego-like EEG Headset",
         "publishYearMonth": "2023/01",
         "authorship": "Ching-Chih Tsao, Hao-Hsiang Chuang, Tsu-Han Tsao, Cheng-Yi Tang, Yu-Wen Chang, Chih-Ling Chu, Chi-Chien Sung, Cheng-Lin Hsieh, Yuan-Pin Lin, Shih-Yi Chien",
-        "conference": "56th Hawaii International Conference on System Sciences (HICSS-56)",
+        "conference": "2023 Hawaii International Conference on System Sciences (HICSS-56)",
         "location": "Maui, Hawaii, USA",
         "doi": "https://hdl.handle.net/10125/102821",
-        "pdf": "",
+        "pdf": "files/HICSS.pdf",
         "otherMaterials": [
             {
                 "name": "Slides",
@@ -66,7 +66,7 @@
         "conference": "2022 ACM/IEEE International Conference on Human-Robot Interaction (HRI '22)",
         "location": "Online",
         "doi": "https://doi.org/10.1109/HRI53351.2022.9889676",
-        "pdf": "",
+        "pdf": "files/HRI22.pdf",
         "otherMaterials": [
             {
                 "name": "Slides",

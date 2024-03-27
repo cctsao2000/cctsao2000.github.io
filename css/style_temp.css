@@ -226,12 +226,12 @@ hr{
      margin-right: 0.5rem;
 }
 
-.pub-list {
-     padding-left: 1%;
+#pub-list {
+     margin-left: 1%;
 }
 
 .pub-tag {
-     color: #000;
+     color: #fff;
      text-align: center;
      font-size: 75%;
      font-weight: 400;
@@ -240,22 +240,52 @@ hr{
      padding-bottom: 0.15rem;
      padding-left: 0.7rem;
      padding-right: 0.7rem;
-     background: #ddd;
+     background: #404040;
      border-radius: 1rem;
-     margin-right: 0.2rem;
+     margin-right: 0.4rem;
 }
+
+.pub-tag.blue {
+     background: #6184D8;
+     margin-right: 0.4rem;
+}
+
+.pub-tag.red {
+     color: #fff;
+     background: #DB504A;
+     margin-right: 0.4rem;
+}
+
+.pub-tag:hover {
+     color: #fff;
+}
+
+/* .pub-tag.red:hover {
+     
+} */
 
 .pub-title{
      color: #000;
      font-size: 18px;
+     line-height: 28px;
+     margin-left: 0;
+     margin-bottom: 3px;
 }
 
 .pub-author{
      font-size: 16px;
+     line-height: 28px;
+     margin-left: 0;
+     margin-bottom: 5px;
 }
 
 .pub-conf{
      font-size: 16px;
+     margin-left: 0;
+}
+
+#pub-list li {
+     margin-bottom: 20px;
 }
 
 .navigation.navbar {
