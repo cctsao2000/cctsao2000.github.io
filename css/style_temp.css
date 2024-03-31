@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,700i,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700,700i,900&display=swap');
 @import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
+@import url('https://cdn-uicons.flaticon.com/2.2.0/uicons-bold-straight/css/uicons-bold-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.2.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-straight/css/uicons-regular-straight.css');
 
 * {
      box-sizing: border-box !important;
@@ -286,6 +290,18 @@ hr{
 
 #pub-list li {
      margin-bottom: 20px;
+}
+
+.view-more {
+     float: right;
+     font-size: 16px;
+     padding-top: 9px;
+     padding-right: 10px;
+     color: #707070;
+}
+
+.view-more i{
+     font-size: 10px;
 }
 
 .navigation.navbar {

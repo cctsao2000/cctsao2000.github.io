@@ -6,7 +6,7 @@
         "conference": "2024 ACM/IEEE International Conference on Human-Robot Interaction (HRI '24)",
         "location": "Boulder, Colorado, USA",
         "doi": "https://doi.org/10.1145/3610978.3640742",
-        "pdf": "https://cctsao2000.github.io/files/HRI24.pdf",
+        "pdf": "files/HRI24.pdf",
         "otherMaterials": [
             {
                 "name": "Poster",
@@ -22,7 +22,7 @@
         "conference": "2023 ACM/IEEE International Conference on Human-Robot Interaction (HRI '23)",
         "location": "Stockholm, Sweden",
         "doi": "https://doi.org/10.1145/3568294.3580171",
-        "pdf": "https://cctsao2000.github.io/files/HRI23.pdf",
+        "pdf": "files/HRI23.pdf",
         "otherMaterials": [
             {
                 "name": "Poster",
