@@ -1,4 +1,4 @@
-async function fetchPublications() {
+async function fetchSelectedPublications() {
     const publicationsResponse = await fetch('data/publications.json');
     const publicationsData = await publicationsResponse.json();
     const selectedPublications = publicationsData.filter(p => p.selected);
@@ -6,7 +6,7 @@ async function fetchPublications() {
 }
 
 async function publishPublications() {
-    publications = await fetchPublications();
+    publications = await fetchSelectedPublications();
     publicationsList = document.querySelector("#pub-list");
     for (publication in publications) {
         var publicationBlock = document.createElement("li");
@@ -133,5 +133,5 @@ function responsiveHome() {
 
 mql.onchange = responsive;
 responsive();
-fetchPublications();
+fetchSelectedPublications();
 publishPublications();

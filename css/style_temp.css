@@ -80,10 +80,20 @@ ol {
      font-size: 18px;
 }
 
+br {
+     margin-top: 10px;
+}
+
 p {
      margin: 3px;
      font-size: 14px;
      line-height: 18px;
+}
+
+span#intro-content p {
+     font-size: 18px;
+     line-height: 32px;
+     padding-top: 10px;
 }
 
 p.project-brief {
@@ -209,7 +219,8 @@ hr{
 }
 
 .link-tag:hover{
-     color: #858585;
+     color: #fff;
+     background: #505050;
 }
 
 .project-cover{
