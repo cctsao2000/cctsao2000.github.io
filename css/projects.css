@@ -1,0 +1,15 @@
+h3 {
+    font-size: 20px;
+}
+
+section {
+    margin-left: 10%;
+    margin-top: 8%;
+    padding-left: 2px;
+}
+
+.filter-tag {
+    background-color: #fff;
+    border-color: black;
+    font-size: 18px;
+}

@@ -51,7 +51,14 @@ async function publishPublications() {
 
 var mql = window.matchMedia("(min-width: 600px)");
 function responsive() {
+    responsiveLogo();
     responsiveNavList();
+}
+
+function responsiveLogo() {
+    var logo = document.getElementById("logo");
+    logo.style.paddingTop = mql.matches ? "3vw" : "7vw";
+    logo.style.paddingLeft = mql.matches ? "6vw" : "11vw";
 }
 
 function responsiveNavList() {

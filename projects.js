@@ -6,12 +6,8 @@ function responsive() {
 
 function responsiveLogo() {
     var logo = document.getElementById("logo");
-    // var logoName = document.getElementById("logo-name");
-    // var sectionHome = document.getElementById("home");
     logo.style.paddingTop = mql.matches ? "3vw" : "7vw";
     logo.style.paddingLeft = mql.matches ? "6vw" : "11vw";
-    // sectionHome.style.paddingTop = mql.matches ? "150px" : "100px";
-    // logoName.innerHTML = mql.matches ? "Ching-Chih Amber Tsao" : "C. Amber Tsao";
 }
 
 function responsiveNavList() {

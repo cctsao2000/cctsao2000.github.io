@@ -72,6 +72,10 @@ button:focus {
      outline: none;
 }
 
+b {
+     font-weight: 400;
+}
+
 ul,
 li,
 ol {
@@ -85,7 +89,7 @@ br {
 }
 
 p {
-     margin: 3px;
+     margin: 3px 0px;
      font-size: 14px;
      line-height: 18px;
 }
@@ -198,6 +202,10 @@ hr{
      font-family: 'Roboto', sans-serif;
      font-size: 18px;
      font-weight: 100;
+}
+
+.link-out {
+     font-weight: 400;
 }
 
 .link-out:hover,.link-out2:hover{
@@ -365,7 +373,7 @@ hr{
 #logo {
      font-size: 30;
      font-weight: 700;
-     padding: 3vw 6vw;
+     padding: 3vw 6vw 0vw 0vw;
      position: absolute;
 }
 
