@@ -1,5 +1,12 @@
 h3 {
     font-size: 20px;
+    padding-top: 10px;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 7px;
 }
 
 section {
@@ -12,4 +19,38 @@ section {
     background-color: #fff;
     border-color: black;
     font-size: 18px;
+}
+
+.project-tag{
+    font-size: 14px;
+    padding: 0.5rem 0.8rem;
+}
+
+img.cover-image {
+    margin-right: 20px;
+    border-radius: 3%;
+}
+
+img {
+    margin-right: 10px;
+    /* border-radius: 3%; */
+}
+
+p {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+b {
+    font-weight: 500;
+}
+
+ol.reference-list {
+    margin-bottom: 20px;
+}
+
+.reference-list li{
+    font-size: 12px;
 }

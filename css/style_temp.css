@@ -41,6 +41,10 @@ a {
      transition: all .3s ease-in-out;
 }
 
+a.project-link {
+     color: #000;
+}
+
 h1,
 h2,
 h3 {
