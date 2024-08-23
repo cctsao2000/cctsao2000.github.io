@@ -1,252 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <!-- mobile metas --> 
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Ching-Chih Tsao</title>
-      <link rel="icon" href="icon/favicon/favicon.ico">
-      <!-- style css -->
-      <link rel="stylesheet" type="text/css" href="style.css">
-   </head>
-   <!-- body -->
-   <body class="main-layout" onload="">
-      <!-- header -->
-      <header>
-        <!-- header inner -->
-        <div class="header"> 
-            <div class="logo">
-                <img src="images/logo.png" width="50" style="float:left ;"><h2 style="float:right; padding-left: 20px;">Ching-Chih Tsao</h2>
-            </div>
-            <nav class="navigation navbar navbar-expand-md navbar-dark" id="main-menu">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="home-nav" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pub-nav" href="#publications">Publications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pro-nav" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="honors-nav" href="#honors">Honors</a>
-                    </li>
-                </ul>
-            </nav>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-            <script type='text/javascript'>
-                $("#main-menu a").click(function() {
-                    $('.nav-link.active').removeClass('active');
-                    $(this).addClass("active");
-                });
-                $(document).scroll(function() {
-                    if($(window).scrollTop() > 1300 && $(window).scrollTop() < 1630){
-                        $('.nav-link').css("color","white");
-                    } else {
-                        $('.nav-link').css("color","#56524D");
-                    }
-                    if($(window).scrollTop() < 400){
-                        $('.nav-link.active').removeClass('active');
-                        $('#home-nav').addClass("active");
-                    } else if($(window).scrollTop() > 550 && $(window).scrollTop() < 800){
-                        $('.nav-link.active').removeClass('active');
-                        $('#pub-nav').addClass("active");
-                    } else if($(window).scrollTop() > 1300 && $(window).scrollTop() < 1800){
-                        $('.nav-link.active').removeClass('active');
-                        $('#pro-nav').addClass("active");
-                    } else if($(window).scrollTop() > 2000){
-                        $('.nav-link.active').removeClass('active');
-                        $('#honors-nav').addClass("active");
-                    }
-                });
-            </script>
-        </div>
-      </header>
-      <!-- end header inner -->
-      <!-- end header -->
-      <!-- banner -->
-      <section class="banner_main" id="home">
-            <div class="container">
-                <div class="row">
-                    <div class="column-profile">
-                        <img class="profile-pic" src="images/profile.png" width="375pt">
-                    </div>
-                    <div class="column-intro">
-                        <div class="intro">
-                            <span class="name">
-                                Ching-Chih Tsao (曹瀞之)
-                                <span style="padding-left:10px">
-                                    <button onclick="playAudio()"><img src="icon/speaker.png" width = "18"></button>
-                                </span>
-                                <audio src="files/name.mp3" id="audio-name"></audio>
-                                <script>
-                                    var x = document.getElementById("audio-name");
-                                    function playAudio() {
-                                        x.play();
-                                    }
-                                </script>
-                            </span>
-                            <span class="intro-content">
-                                <p>&nbsp;</p>
-                                Hi! I'm a first year master's student in <a href="https://tech.cornell.edu/programs/masters-programs/jacobs-technion-cornell-dual-ms-connective-media/" target="_blank" class="link-out">Information Systems - Connective Media</a> at Cornell University (Cornell Tech). Previously, I studied at National Chengchi University and worked as an undergraduate research assistant in the Human-Automation Interaction Lab supervised by
-                                <a href="https://gsechien.github.io/index.html" target="_blank" class="link-out">Shih-Yi Chien</a>.
-                                My research interests focus on Human-Automation Decision Making, with particular attention to Human-Robot Collaboration (HRC) and Cognitive Enhancement. 
-                                My previous research projects utilized EEG analysis to assess user behavior and decision-making strategies during HRC.
-                                Here is my <a href="files/ambertsao_cv_0603.pdf" target="_blank" class="link-out">Curriculum Vitae</a>.
-                                <p>&nbsp;</p>
-                                Email: ct649[at]cornell[dot]edu
-                                <br>
-                                Link:
-                                [<a href="files/ambertsao_cv_0603.pdf" target="_blank" class="link-out">Curriculum Vitae</a>]
-                                [<a href="https://github.com/cctsao2000" target="_blank" class="link-out">Github</a>]
-                                [<a href="https://www.linkedin.com/in/ching-chih-amber-tsao/" target="_blank" class="link-out">Linkedin</a>]
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-      </section>
-      <section class="banner_main" id="publications">
-        <div class="publications-content">
-            <h2 class="topic">Selected Publications</h2>
-            <span class="publications-content">
-                <ul class="pub-list">
-                    <li class="publ">
-                        <span class="highlight">Ching-Chih Tsao</span>, Cheng-Yi Tang, Yu-Wen Chang, Yin-Hsuan Sung, Shih-Yi Chien, Szu-Yin Lin (2023.03). 
-                        <a href="https://dl.acm.org/doi/10.1145/3568294.3580171" target="_blank" class="link-out">"The Influence of a Robot Recommender System on Impulse Buying Tendency."</a> 
-                        In Companion of the 2023 ACM/IEEE International Conference on Human-Robot Interaction (HRI '23). ACM/IEEE, Stockholm.
-                        <br>
-                        [<a href="#" class="link-out2" onclick="$('#HRI2-abs').slideToggle();return false;">Abstract</a>]
-                        [<a href="files/HRI23.pdf" target="_blank" class="link-out2">PDF</a>]
-                        [<a href="files/HRI_Poster.pdf" target="_blank" class="link-out2">Poster</a>]
-                        [<a href="https://github.com/cctsao2000/EEG-ImpulseBuying" target="_blank" class="link-out2">Code</a>]
-                        <div id="HRI2-abs" style="font-size:16px;" hidden>
-                            The present study examines the influences of a robot recommender system on human impulse buying tendency in online e-commerce contexts. An empirical user study was conducted, where different marketing strategies (limited quantity vs. discount rate) were applied to the products and intimate designs were utilized for the robotic agent. To appropriately investigate participants’ real-time cognitive perceptions toward different experimental conditions (i.e., marketing plans and robotic agents), an electroencephalogram (EEG) headset was used to capture users’ brain activities. Our preliminary results reveal that marketing strategies and robot recommender applications can trigger impulsive buying behavior and contribute to different cognitive activities.
-                        </div>
-                    </li>
-                    <li class="publ">
-                        <span class="highlight">Ching-Chih Tsao</span>, Hao-Hsiang Chuang, Tsu-Han Tsao, Cheng-Yi Tang, Yu-Wen Chang, Chih-Ling Chu, Chi-Chien Sung, Cheng-Lin Hsieh, Yuan-Pin Lin, Shih-Yi Chien (2023.01). 
-                        <a href="https://scholarspace.manoa.hawaii.edu/items/9b8a5709-4062-4426-8e2a-9078173e8f4a" target="_blank" class="link-out">"Assessing the Decision-Making Process in Human-Robot Collaboration Using a Lego-like EEG Headset."</a> 
-                        In Proceedings of the 56th Hawaii International Conference on System Sciences (HICSS-56). HICSS, Hawaii. <span class="red">(Oral Paper)</span>
-                        <br>
-                        [<a href="#" class="link-out2" onclick="$('#HICSS-abs').slideToggle();return false;">Abstract</a>]
-                        [<a href="files/HICSS.pdf" target="_blank" class="link-out2">PDF</a>] 
-                        [<a href="files/HICSS_Slides.pdf" target="_blank" class="link-out2">Slides</a>]
-                        [<a href="#" class="link-out2" onclick="$('#HICSS-video').toggle();return false;">Video</a>]
-                        [<a href="https://github.com/cctsao2000/EEG-DecisionMakingHRC" target="_blank" class="link-out2">Code</a>]
-                        <div id="HICSS-abs" style="font-size:16px;" hidden>
-                            Human-robot collaboration (HRC) has become an emerging field, where the use of a robotic agent has been shifted from a supportive machine to a decision- making collaborator. A variety of factors can influence the effectiveness of decision-making processes during HRC, including the system-related (e.g., robot capability) and human-related (e.g., individual knowledgeability) factors. As a variety of contextual factors can significantly impact the human-robot decision-making process in collaborative contexts, the present study adopts a Lego-like EEG headset to collect and examine human brain activities and utilizes multiple questionnaires to evaluate participants’ cognitive perceptions toward the robot. A user study was conducted where two levels of robot capabilities (high vs. low) were manipulated to provide system recommendations. The participants were also identified into two groups based on their computational thinking (CT) ability. The EEG results revealed that different levels of CT abilities trigger different brainwaves, and the participants’ trust calibration of the robot also varies the resultant brain activities.
-                        </div>
-                        <br>
-                        <iframe id="HICSS-video" width="560" height="315" src="https://www.youtube.com/embed/5JV5ooFpOgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen hidden></iframe>
-                    </li>
-                    <li class="publ">
-                        Chan Hsu, <span class="highlight">Ching-Chih Tsao</span>, Yu-Liang Weng, Cheng-Yi Tang, Yu-Wen Chang, Yihuang Kang, Shih-Yi Chien (2022.03). <a href="https://dl.acm.org/doi/10.5555/3523760.3523882" target="_blank" class="link-out">"A Machine Learning Approach to Model HRI Research Trends in 2010~2021."</a> 
-                        In Proceedings of the 17th ACM/IEEE International Conference on Human-Robot Interaction (HRI '22). pp 812-815. ACM/IEEE, Hokkaido.
-                        <br>
-                        [<a href="#" class="link-out2" onclick="$('#HRI-abs').slideToggle();return false;">Abstract</a>]
-                        [<a href="files/HRI22.pdf" target="_blank" class="link-out2">PDF</a>] 
-                        [<a href="files/HRI22_a_machine_learning_approach_to_model_hri_trends_in_2010-2021.pdf" target="_blank" class="link-out2">Slides</a>]
-                        [<a href="https://github.com/cctsao2000/TopicModel-HRIResearchTrend" target="_blank" class="link-out2">Code</a>]
-                        <div id="HRI-abs" style="font-size:16px;" hidden>
-                            The present study collects a large amount of HRI-related research studies and analyzes the research trends from 2010 to 2021. Through the topic modeling technique, our developed ML model is able to retrieve the dominant research factors. The preliminary results reveal five important topics, handover, privacy, robot tutor, skin deformation, and trust. Our results show the research in the HRI domain can be divided into two general directions, namely technical and human aspects regarding the use of robotic applications. At this point, we are increasing the research pool to collect more research studies and advance our ML model to strengthen the robustness of the results.
-                        </div>
-                    </li>
-                    <!-- <li class="publ">
-                        <span class="highlight">Ching-Chih Tsao</span>, Man-Jiun Chi, Shih-Yi Chien, Yuan-Pin Lin (2021.07). <a href="https://sites.google.com/g.nccu.edu.tw/taichi2021/%E8%AD%B0%E7%A8%8B%E5%85%A7%E5%AE%B9/poster-session?authuser=0#h.3zbtoujaddko" target="_blank" class="link-out">"The Effect of Team Familiarity in Collaborative Learning Tasks: An AR+EEG Exploratory Study."</a> In Proceedings of the 7th Annual Conference of Taiwanese Association of Computer-Human Interaction (TAICHI '21). pp 125-128. TAICHI, Taipei.
-                        <br>
-                        [<a href="#" class="link-out2" onclick="$('#TAICHI-abs').slideToggle();return false;">Abstract</a>]
-                        [<a href="files/TAICHI.pdf" target="_blank" class="link-out2">PDF</a>] 
-                        [<a href="files/TAICHI_Poster.pdf" target="_blank" class="link-out2">Poster</a>]
-                        [<a href="https://github.com/cctsao2000/EEG-ARCollaboration" target="_blank" class="link-out2">Code</a>]
-                        <div id="TAICHI-abs" style="font-size:16px;" hidden>
-                            With the rapid development of technology, collaborative tasks that rely on technology can hardly be separated from our everyday life. Since the relationship between collaborators can greatly affect team behaviors and task performance, this study aims to investigate the effects of team familiarity on the decision-making process and the consequent performance of computational thinking tasks. To analyze collaborative learning strategies, apart from the conventional analyses (e.g., system logs and survey questionnaires), the electroencephalography (EEG) signal is captured to further identify participants’ decision-making processes.
-                        </div>
-                    </li> -->
-                </ul>
-            </span>
-        </div>
-      </section>
-      <section class="banner_main" id="projects">
-        <img src="images/eeg-bg.jpg">
-        <div id="container">
-            <ul class="project_list">
-                <li>
-                    <a target="_blank" class="link-out prol" id="chatgpt">Trust in LLM / ChatGPT Explanation on Computational Thinking Tasks
-                        <p class="proj-description">Study users' trust behavior when processing ChatGPT generated explanation on computational thinking tasks</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/cctsao2000/EEG-ImpulseBuying" target="_blank" class="link-out prol" id="ib">Brain Dynamics of Impulse Buying Behavior in Interaction with a Voiced Chatbot
-                        <p class="proj-description">Utilize EEG analysis to examine the influences of a robot recommender system on human impulse buying tendency in online e-commerce contexts</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/cctsao2000/EEG-DecisionMakingHRC" target="_blank" class="link-out prol" id="dm-hrc">Assessing the Decision Making Process in Human-Robot Collaboraton
-                        <p class="proj-description">Study how a robot's capabilities and the individual's computational thinking ability can impact the effectiveness of decision-making processes during HRC</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/cctsao2000/TopicModel-HRIResearchTrend" target="_blank" class="link-out prol" id="tm-hri">Topic Modeling HRI Research Trends in 2010~2021
-                        <p class="proj-description">Analyze the HRI research trends from 2010 to 2021 using the topic model</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/cctsao2000/EEG-ARCollaboration" target="_blank" class="link-out prol" id="ar-eeg">Using EEG to Measure the Effects of Team Familiarity in AR Collaborative Tasks
-                        <p class="proj-description">Explore the impacts of team familiarity on collaborative approaches during pair decision-making</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/cctsao2000/NLP-ChineseSpamSMSClassification" target="_blank" class="link-out prol" id="ds4cs">Chinese Spam Message Classification
-                        <p class="proj-description">Compare the performance of different methods in Chinese spam classification</p>
-                    </a>
-                </li>
-            </ul>  
-        </div>
-      </section>
-      <section class="banner_main" id="honors">
-        <h2 class="topic" style="padding-left: 110px; padding-bottom: 30px;">Honors</h2>
-        <ul class="honor-list">
-            <li class="honorl">&emsp;<span class="highlight">Merit-based Scholarship (20,000 USD)</span>, <a href="https://tech.cornell.edu/" target="_blank" class="link-out">Cornell University</a>, USA, 2023-Present</li>
-            <li class="honorl">&emsp;<span class="highlight">Research Scholarship (Approx. 2,800 USD/year)</span>, <a href="https://www.nstc.gov.tw/?l=en" target="_blank" class="link-out">National Science and Technology Council</a>, Taiwan, 2021-2023</li>
-            <li class="honorl">&emsp;<span class="highlight">Conference Travel Grant (Approx. 700 USD)</span>, <a href="https://www.nccu.edu.tw/app/home.php" target="_blank" class="link-out">National Chengchi University</a>, Taiwan, 2023</li>
-            <li class="honorl">&emsp;<span class="highlight">Academic Excellence Award (Ranked #1/80)</span>, <a href="https://www.nccu.edu.tw/app/home.php" target="_blank" class="link-out">National Chengchi University</a>, 2020</li>
-            <li class="honorl">&emsp;<span class="highlight">Sustainable Development Goals Ambassador Golden Merits</span>, <a href="https://unesco.hk/web/" target="_blank" class="link-out">UNESCO Hong Kong</a>, 2018</li>
-            <li class="honorl">&emsp;<span class="highlight">Best Presentation Team Award - Champion (Tertiary Division)</span>, "Digital Empowerment of Girls in Brazil.",<br>&emsp;<a href="https://www.plan.org.hk/en/youth-conference-2018/" target="_blank" class="link-out">PLAN International Hong Kong Youth Conference</a>, 2018</li>
-        </ul> 
-      </section>
-      <section class="banner_main" id="service">
-        <h2 class="topic" style="padding-left: 110px; padding-bottom: 30px;">Service</h2>
-        <ul class="honor-list">
-            <li class="honorl">&emsp;<span class="highlight">Course Support (Mentor)</span>, <a href="https://tech.cornell.edu/impact/break-through-tech/break-through-ai/" target="_blank" class="link-out">Break Through Tech AI @ Cornell Tech</a>, 2023</li>
-            <li class="honorl">&emsp;<span class="highlight">Reviewer</span>, <a href="https://chi2023.acm.org/for-authors/alt-chi/" target="_blank" class="link-out">CHI 2023</a>, <a href="https://humanrobotinteraction.org/2023/late-breaking-reports/" target="_blank" class="link-out">HRI 2023</a>, 2022-2023</li>
-            <li class="honorl">&emsp;<span class="highlight">Teaching Assistant</span>, Introduction to Computer Science @ National Chengchi University, 2022</li>
-        </ul> 
-      </section>
-      <br>
-        <footer>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                    <div class="column">
-                        <p>© 2024 Ching-Chih Tsao</p> 
-                    </div>
-                    <div class="column">
-                        <div class="contact">
-                            <ul class="icon-link">
-                                <li><a href="https://github.com/cctsao2000" target="_blank"><img src="icon/github.png" width = "50"></a></li>
-                                <li><a href="https://www.linkedin.com/in/ching-chih-amber-tsao/" target="_blank"><img src="icon/linkedin.png" width = "50"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                  </div>
-               </div>
-            </div>
-        </footer>
-   </body>
-</html>
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Ching-Chih Amber Tsao</title>
+    <link rel="icon" href="icon/favicon/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="icon/logo.png" width="40" style="float:left ; padding-top: 10px;">
+            <h2 style="float:right; padding-left: 20px;" id="logo-name">Ching-Chih Amber Tsao</h2>
+        </div>
+        <nav class="navigation navbar navbar-expand-md navbar-dark" id="main-menu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-nav" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pub-nav" href="publications.html">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pro-nav" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="blog-nav" href="https://medium.com/@cctsao" target="_blank">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="columns is-vcentered">
+            <div class="column is-one-third">
+                <img id="profile-pic" src="images/profile.png">
+            </div>
+            <div class="column is-offset-1">
+                <span id="name">
+                    Ching-Chih Amber Tsao
+                </span>
+                <span id="intro-content">
+                    <p>I'm a second-year master's student in <a
+                            href="https://tech.cornell.edu/programs/masters-programs/jacobs-technion-cornell-dual-ms-connective-media/"
+                            target="_blank" class="link-out">Information Systems - Connective Media</a> at Cornell
+                        University (Cornell Tech), where I work with <a href="https://wendyju.com/" target="_blank" class="link-out">Prof.
+                            Wendy
+                            Ju</a> in the Future Automation Research Laboratory.
+                    </p>
+                    <p>My research interests encompass <b>Brain-Computer Interfaces (BCI), Human-centered AI, Human-Robot Interaction,
+                        and
+                        Ubiquitous Computing.</b> Particularly, I focuses on exploring how technologies can be integrated into daily life to
+                        enhance
+                        cognitive abilities, social interactions, and user experience. Some of my recent research projects include: detecting
+                        social discomfort in shared-rides, developing wearable BCI devices
+                        for user authentication, and investigating user behavior and decision-making strategies through EEG analysis.
+                    </p>
+                    <p>Previously, I worked as an undergraduate research assistant in the Human-Automation Interaction Lab
+                        at National Chengchi University, supervised by <a href="https://gsechien.github.io/index.html" target="_blank"
+                            class="link-out">Prof. Shih-Yi Chien</a>.
+                    </p>
+                    <hr style="border: none; background-color:#fff; margin-bottom: 5px" />
+                    <!-- <p>&nbsp;</p> -->
+                    <a href="files/ambertsao_cv_0603.pdf" target="_blank" class="link-tag">CV</a>
+                    <a href="https://github.com/cctsao2000" target="_blank" class="link-tag">GitHub</a>
+                    <a href="https://www.linkedin.com/in/ching-chih-amber-tsao/" target="_blank"
+                        class="link-tag">Linkedin</a>
+                    <a href="https://scholar.google.com/citations?user=gA6mbj8AAAAJ&hl=en" target="_blank"
+                        class="link-tag">Google Scholar</a>
+                </span>
+            </div>
+        </div>
+    </section>
+    <section id="news">
+        <div class="columns">
+            <div class="column is-one-third">
+                &nbsp;News
+                <hr />
+                <ul class="news-content">
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2024.06</div>
+                            <div class="column">Joined Academia Sinica as a summer reserch intern.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2024.03</div>
+                            <div class="column">Attended HRI 2024 in-person.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2024.01</div>
+                            <div class="column">Joined the FAR Lab.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2023.08</div>
+                            <div class="column">Served as a TA of the Break Through Tech AI Studio.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2023.08</div>
+                            <div class="column">Started my Master's at Cornell Tech.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2023.05</div>
+                            <div class="column">Graduated from National Chengchi University.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2023.03</div>
+                            <div class="column">Attended HRI 2023 in-person.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2023.01</div>
+                            <div class="column">Presented my 1st full paper at HICSS.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2022.03</div>
+                            <div class="column">Attended HRI 2022 online.</div>
+                        </div>
+                    </li>
+                </ul>
+                <br>
+                &nbsp;Honors
+                <hr />
+                <ul class="news-content">
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2024</div>
+                            <div class="column">Conference Travel Grant, HRI'24
+                                <div class="honor-source">Cornell University</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2023</div>
+                            <div class="column">Merit-based Scholarship
+                                <div class="honor-source">Cornell Tech</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2023</div>
+                            <div class="column">Research Scholarship
+                                <div class="honor-source">NSTC Taiwan</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2023</div>
+                            <div class="column">Conference Travel Grant, HICSS-56
+                                <div class="honor-source">National Chengchi University</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2020</div>
+                            <div class="column">Academic Excellence Award
+                                <div class="honor-source">National Chengchi University</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns is-gapless">
+                            <div class="column is-one-quarter yr-mon">2018</div>
+                            <div class="column">SDGs Ambassador Golden Merits
+                                <div class="honor-source">UNESCO Hong Kong</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="column is-offset-1">
+                &nbsp;Selected Work <a href="projects.html" class="view-more">More&nbsp;<i class='fi fi-bs-arrow-up-right'></i></a>
+                <hr style="margin-bottom: 20px" />
+                <ul class="latest-work-content">
+                    <li>
+                        <div class="columns">
+                            <div class="column is-one-third"><img src="images/eeg.jpeg" class="project-cover"></div>
+                            <div class="column pro-disc">
+                                <div class="project-title">EEG Analysis of decision-making process in Human-Robot
+                                    Collaboration</div>
+                                <p class="project-brief">A series of studies that adopt EEG headsets to collect and
+                                    examine human brain activities to evaluate participants’ cognitive perceptions
+                                    toward the robot in different collaborative contexts.</p>
+                                <span class="project-tag">Human-Robot Interaction</span>
+                                <span class="project-tag">EEG</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <a href="cornellTechMusicbox.html" class="project-link">
+                                    <img src="images/musicbox.gif" class="project-cover">
+                                </a>
+                            </div>
+                            <div class="column pro-disc">
+                                <div class="project-title">The Cornell Tech Musicbox</div>
+                                <p class="project-brief">This digital fabrication project utilized laser cutting and 3D
+                                    printing to create a Cornell Tech miniature music box. The hidden spinning plate
+                                    holds a magnet that guides the red bus around the campus, creating a playful
+                                    experience.</p>
+                                <span class="project-tag">Digital Fabrication</span>
+                                <span class="project-tag">Computer-Aided Design</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <a href="smartSkate.html" class="project-link">
+                                    <img src="images/smartskate.jpeg" class="project-cover">
+                                </a>
+                            </div>
+                            <div class="column pro-disc">
+                                <a href="smartSkate.html" class="project-link">
+                                    <div class="project-title">SmartSkate</div>
+                                </a>
+                                <p class="project-brief">
+                                    SmartSkate is a wearable device designed for inline skaters to enhance their
+                                    practice sessions. SmartSkate provides real-time alerts to users if they exceed safe
+                                    speeds or are approaching obstacles.
+                                    By connecting the device with a smartphone, SmartSkate generates practicing reports
+                                    that allow skaters to keep track of their progress.
+                                </p>
+                                <span class="project-tag">Ubiquitous Computing</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <br>
+                &nbsp;Selected Publications <a href="publications.html" class="view-more">More&nbsp;<i class='fi fi-bs-arrow-up-right'></i></a>
+                <hr style="margin-bottom: 20px" />
+                <ul id="pub-list">
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="quote">
+            <div>"If I come up with 300 ideas in a year, and only one of them is useful, I am content." </div>
+            <div class="medium-italic">- Alfred Nobel</div>
+            <div id="copyright">© 2024 Ching-Chih Amber Tsao.</div>
+        </div>
+    </footer>
+</body>
+
+</html>
