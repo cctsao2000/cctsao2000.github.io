@@ -13,7 +13,8 @@
                 "link": "files/HRI24_Poster"
             }
         ],
-        "selected":false
+        "selected":false,
+        "publicationType": "conference"
     },
     {
         "title": "The Influence of a Robot Recommender System on Impulse Buying Tendency",
@@ -33,7 +34,8 @@
                 "link": "https://github.com/cctsao2000/EEG-ImpulseBuying"
             }
         ],
-        "selected":true
+        "selected":true,
+        "publicationType": "conference"
     },
     {
         "title": "Assessing the Decision-Making Process in Human-Robot Collaboration Using a Lego-like EEG Headset",
@@ -57,7 +59,8 @@
                 "link": "https://github.com/cctsao2000/EEG-DecisionMakingHRC"
             }
         ],
-        "selected":true
+        "selected":true,
+        "publicationType": "conference"
     },
     {
         "title": "A Machine Learning Approach to Model HRI Research Trends in 2010~2021",
@@ -77,6 +80,50 @@
                 "link": "https://github.com/cctsao2000/TopicModel-HRIResearchTrend"
             }
         ],
-        "selected":true
+        "selected":true,
+        "publicationType": "conference"
+    },
+    {
+        "title": "Gazo: A Standalone Modularized Light-weighted BCI Device",
+        "publishYearMonth": "2024/10",
+        "authorship": "Ching-Chih Tsao, Yu-Te Wang, Yu-Lin Chu",
+        "conference": "Neuroscience 2024",
+        "location": "Chicago, Illinois, USA",
+        "pdf": "https://www.sfn.org/-/media/SfN/Documents/NEW-SfN/Meetings/Neuroscience-2024/Abstracts-and-Sessions/Abstract-PDFs/SFN24_Abstracts-PDF-Late-Breaking-Posters.pdf#page=450",
+        "otherMaterials": [
+            {
+                "name": "Poster",
+                "link": "files/SfN24_Poster.pdf"
+            },
+            {
+                "name": "Slides",
+                "link": "files/Gazo_AmberGlasses.pdf"
+            },
+            {
+                "name": "Video",
+                "link": "https://drive.google.com/file/d/12yfClfvRLOoJdRPrJtUWHnubzqvd4zUK/view?usp=sharing"
+            }
+        ],
+        "selected":false,
+        "publicationType": "abstract"
+    },
+    {
+        "title": "BrainPrint: Innovative Head-Mounted EEG Technology for Secure Personal Identification",
+        "publishYearMonth": "2024/10",
+        "authorship": "Yu-Lin Chu, Ching-Chih Tsao, Chi-Ming Chung, Cian-Fong Hung, Yao-Yu Lee, Jui-Bang Lu, Yang Wu, Yi-Huan Chen, Yu-Te Wang",
+        "conference": "2024 IEEE Brain Discovery & Neurotechnology Workshop",
+        "location": "Chicago, Illinois, USA",
+        "otherMaterials": [
+            {
+                "name": "Poster",
+                "link": "files/IEEEBrainWS24_BrainPrint.pdf"
+            },
+            {
+                "name": "Slides",
+                "link": "files/brainprint_ieee_workshop.pdf"
+            }
+        ],
+        "selected":false,
+        "publicationType": "abstract"
     }
 ]

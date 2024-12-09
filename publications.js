@@ -1,12 +1,15 @@
-async function fetchPublications() {
+async function fetchPublications(publicationType) {
     const publicationsResponse = await fetch('data/publications.json');
     const publicationsData = await publicationsResponse.json();
-    return publicationsData;
+    const publications = publicationsData.filter(p => p.publicationType === publicationType);
+    return publications;
 }
 
 async function publishPublications() {
-    publications = await fetchPublications();
+    publications = await fetchPublications("conference");
     publicationsList = document.querySelector("#full-pub-list");
+    abstracts = await fetchPublications("abstract");
+    abstractsList = document.querySelector("#full-abs-list");
     for (publication in publications) {
         var publicationBlock = document.createElement("li");
         var title = document.createElement("p");
@@ -47,6 +50,42 @@ async function publishPublications() {
 
         publicationsList.appendChild(publicationBlock);
     }
+    for (abstract in abstracts) {
+        var abstractBlock = document.createElement("li");
+        var title = document.createElement("p");
+        title.textContent = abstracts[abstract].title;
+        title.className = "pub-title";
+        abstractBlock.appendChild(title);
+
+        var author = document.createElement("p");
+        author.textContent = abstracts[abstract].authorship;
+        author.className = "pub-author";
+        abstractBlock.appendChild(author);
+
+        var conference = document.createElement("p");
+        conference.textContent = abstracts[abstract].conference;
+        conference.className = "pub-conf";
+        abstractBlock.appendChild(conference);
+
+        if (abstracts[abstract].pdf != null){
+            var pdfTag = document.createElement("a");
+            pdfTag.textContent = "PDF";
+            pdfTag.href = abstracts[abstract].pdf;
+            pdfTag.className = "pub-tag red";
+            abstractBlock.appendChild(pdfTag);
+        }
+
+        var materialsList = abstracts[abstract].otherMaterials;
+        for (material in materialsList) {
+            var materialTag = document.createElement("a");
+            materialTag.textContent = materialsList[material].name;
+            materialTag.href = materialsList[material].link;
+            materialTag.className = "pub-tag";
+            abstractBlock.appendChild(materialTag);
+        }
+
+        abstractsList.appendChild(abstractBlock);
+    }
 }
 
 var mql = window.matchMedia("(min-width: 600px)");
@@ -74,5 +113,4 @@ function responsiveNavList() {
 
 mql.onchange = responsive;
 responsive();
-fetchPublications();
 publishPublications();

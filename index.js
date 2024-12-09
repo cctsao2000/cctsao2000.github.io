@@ -133,5 +133,4 @@ function responsiveHome() {
 
 mql.onchange = responsive;
 responsive();
-fetchSelectedPublications();
 publishPublications();
