@@ -1,5 +1,77 @@
 [
     {
+        "name": "Amber Puzzle Box",
+        "projectYearMonth": "Feb 2025",
+        "collaborator": "",
+        "page": "smartSkate.html",
+        "coverPhoto": "images/smartskate.jpeg",
+        "intro": "This digital fabrication project utilized laser cutting and 3D printing to create a Cornell Tech miniature music box. The hidden spinning plate holds a magnet that guides the red bus around the campus, creating a playful experience.",
+        "tags": [
+            "Digital Fabrication"
+        ],
+        "selected": true
+    },
+    {
+        "name": "Snack Keeper",
+        "projectYearMonth": "Feb 2025",
+        "collaborator": "",
+        "page": "smartSkate.html",
+        "coverPhoto": "images/smartskate.jpeg",
+        "intro": "This digital fabrication project utilized laser cutting and 3D printing to create a Cornell Tech miniature music box. The hidden spinning plate holds a magnet that guides the red bus around the campus, creating a playful experience.",
+        "tags": [
+            "Ubiquitous Computing"
+        ],
+        "selected": true
+    },
+    {
+        "name": "Walkwise",
+        "projectYearMonth": "Dec 2024",
+        "collaborator": "",
+        "page": "smartSkate.html",
+        "coverPhoto": "images/smartskate.jpeg",
+        "intro": "This digital fabrication project utilized laser cutting and 3D printing to create a Cornell Tech miniature music box. The hidden spinning plate holds a magnet that guides the red bus around the campus, creating a playful experience.",
+        "tags": [
+            "Ubiquitous Computing"
+        ],
+        "selected": true
+    },
+    {
+        "name": "Pong Soccer",
+        "projectYearMonth": "Dec 2024",
+        "collaborator": "",
+        "page": "smartSkate.html",
+        "coverPhoto": "images/smartskate.jpeg",
+        "intro": "",
+        "tags": [
+            "Human-Robot Interaction"
+        ],
+        "selected": true
+    },
+    {
+        "name": "Gazo",
+        "projectYearMonth": "July 2024",
+        "collaborator": "",
+        "page": "smartSkate.html",
+        "coverPhoto": "images/smartskate.jpeg",
+        "intro": "",
+        "tags": [
+            "Digital Fabrication", "Ubiquitous Computing"
+        ],
+        "selected": true
+    },
+    {
+        "name": "Glens",
+        "projectYearMonth": "Mar 2024",
+        "collaborator": "",
+        "page": "smartSkate.html",
+        "coverPhoto": "images/smartskate.jpeg",
+        "intro": "This digital fabrication project utilized laser cutting and 3D printing to create a Cornell Tech miniature music box. The hidden spinning plate holds a magnet that guides the red bus around the campus, creating a playful experience.",
+        "tags": [
+            "Ubiquitous Computing"
+        ],
+        "selected": true
+    },
+    {
         "name": "Cajondoni",
         "projectYearMonth": "Mar 2024",
         "collaborator": "Jou-An Chen, Shu-Wei Hsu, Tingrui Zhang",
@@ -7,7 +79,7 @@
         "coverPhoto": "images/smartskate.jpeg",
         "intro": "This digital fabrication project utilized laser cutting and 3D printing to create a Cornell Tech miniature music box. The hidden spinning plate holds a magnet that guides the red bus around the campus, creating a playful experience.",
         "tags": [
-            "Digital Fabrication"
+            "Digital Fabrication", "Ubiquitous Computing"
         ],
         "selected": true
     },
@@ -32,70 +104,6 @@
         "intro": "SmartSkate is a wearable device designed for inline skaters to enhance their practice sessions. SmartSkate provides real-time alerts to users if they exceed safe speeds or are approaching obstacles. By connecting the device with a smartphone, SmartSkate generates practicing reports that allow skaters to keep track of their progress.",
         "tags": [
             "Ubiquitous Computing"
-        ],
-        "selected": true
-    },
-    {
-        "title": "The Influence of a Robot Recommender System on Impulse Buying Tendency",
-        "publishYearMonth": "2023/03",
-        "authorship": "Ching-Chih Tsao, Cheng-Yi Tang, Yu-Wen Chang, Yin-Hsuan Sung, Shih-Yi Chien, Szu-Yin Lin",
-        "conference": "2023 ACM/IEEE International Conference on Human-Robot Interaction (HRI '23)",
-        "location": "Stockholm, Sweden",
-        "doi": "https://doi.org/10.1145/3568294.3580171",
-        "pdf": "files/HRI23.pdf",
-        "otherMaterials": [
-            {
-                "name": "Poster",
-                "link": "files/HRI23_Poster.pdf"
-            },
-            {
-                "name": "GitHub",
-                "link": "https://github.com/cctsao2000/EEG-ImpulseBuying"
-            }
-        ],
-        "selected": true
-    },
-    {
-        "title": "Assessing the Decision-Making Process in Human-Robot Collaboration Using a Lego-like EEG Headset",
-        "publishYearMonth": "2023/01",
-        "authorship": "Ching-Chih Tsao, Hao-Hsiang Chuang, Tsu-Han Tsao, Cheng-Yi Tang, Yu-Wen Chang, Chih-Ling Chu, Chi-Chien Sung, Cheng-Lin Hsieh, Yuan-Pin Lin, Shih-Yi Chien",
-        "conference": "2023 Hawaii International Conference on System Sciences (HICSS-56)",
-        "location": "Maui, Hawaii, USA",
-        "doi": "https://hdl.handle.net/10125/102821",
-        "pdf": "files/HICSS.pdf",
-        "otherMaterials": [
-            {
-                "name": "Slides",
-                "link": "files/HICSS_Slides.pdf"
-            },
-            {
-                "name": "Video",
-                "link": "https://www.youtube.com/watch?v=5JV5ooFpOgc"
-            },
-            {
-                "name": "GitHub",
-                "link": "https://github.com/cctsao2000/EEG-DecisionMakingHRC"
-            }
-        ],
-        "selected": true
-    },
-    {
-        "title": "A Machine Learning Approach to Model HRI Research Trends in 2010~2021",
-        "publishYearMonth": "2022/03",
-        "authorship": "Chan Hsu, Ching-Chih Tsao, Yu-Liang Weng, Cheng-Yi Tang, Yu-Wen Chang, Yihuang Kang, Shih-Yi Chien",
-        "conference": "2022 ACM/IEEE International Conference on Human-Robot Interaction (HRI '22)",
-        "location": "Online",
-        "doi": "https://doi.org/10.1109/HRI53351.2022.9889676",
-        "pdf": "files/HRI22.pdf",
-        "otherMaterials": [
-            {
-                "name": "Slides",
-                "link": "files/HRI22_a_machine_learning_approach_to_model_hri_trends_in_2010-2021.pdf"
-            },
-            {
-                "name": "GitHub",
-                "link": "https://github.com/cctsao2000/TopicModel-HRIResearchTrend"
-            }
         ],
         "selected": true
     }
