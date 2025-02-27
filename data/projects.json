@@ -4,7 +4,7 @@
         "projectYearMonth": "Feb 2025",
         "collaborator": "",
         "page": "smartSkate.html",
-        "coverPhoto": "images/smartskate.jpeg",
+        "coverPhoto": "images/puzzlebox.jpeg",
         "intro": "This digital fabrication project utilized laser cutting and 3D printing to create a Cornell Tech miniature music box. The hidden spinning plate holds a magnet that guides the red bus around the campus, creating a playful experience.",
         "tags": [
             "Digital Fabrication"
@@ -16,7 +16,7 @@
         "projectYearMonth": "Feb 2025",
         "collaborator": "",
         "page": "smartSkate.html",
-        "coverPhoto": "images/smartskate.jpeg",
+        "coverPhoto": "images/snackkeeper.jpeg",
         "intro": "This digital fabrication project utilized laser cutting and 3D printing to create a Cornell Tech miniature music box. The hidden spinning plate holds a magnet that guides the red bus around the campus, creating a playful experience.",
         "tags": [
             "Ubiquitous Computing"
@@ -28,7 +28,7 @@
         "projectYearMonth": "Dec 2024",
         "collaborator": "",
         "page": "smartSkate.html",
-        "coverPhoto": "images/smartskate.jpeg",
+        "coverPhoto": "images/walkwise.jpeg",
         "intro": "This digital fabrication project utilized laser cutting and 3D printing to create a Cornell Tech miniature music box. The hidden spinning plate holds a magnet that guides the red bus around the campus, creating a playful experience.",
         "tags": [
             "Ubiquitous Computing"
@@ -40,7 +40,7 @@
         "projectYearMonth": "Dec 2024",
         "collaborator": "",
         "page": "smartSkate.html",
-        "coverPhoto": "images/smartskate.jpeg",
+        "coverPhoto": "images/pongsoccer.jpeg",
         "intro": "",
         "tags": [
             "Human-Robot Interaction"
@@ -52,10 +52,10 @@
         "projectYearMonth": "July 2024",
         "collaborator": "",
         "page": "smartSkate.html",
-        "coverPhoto": "images/smartskate.jpeg",
+        "coverPhoto": "images/gazo.jpeg",
         "intro": "",
         "tags": [
-            "Digital Fabrication", "Ubiquitous Computing"
+            "Brain-Computer Interface", "Digital Fabrication", "Ubiquitous Computing"
         ],
         "selected": true
     },
@@ -64,7 +64,7 @@
         "projectYearMonth": "Mar 2024",
         "collaborator": "",
         "page": "smartSkate.html",
-        "coverPhoto": "images/smartskate.jpeg",
+        "coverPhoto": "images/glens.jpeg",
         "intro": "This digital fabrication project utilized laser cutting and 3D printing to create a Cornell Tech miniature music box. The hidden spinning plate holds a magnet that guides the red bus around the campus, creating a playful experience.",
         "tags": [
             "Ubiquitous Computing"
@@ -72,11 +72,11 @@
         "selected": true
     },
     {
-        "name": "Cajondoni",
+        "name": "CajonDoni",
         "projectYearMonth": "Mar 2024",
         "collaborator": "Jou-An Chen, Shu-Wei Hsu, Tingrui Zhang",
         "page": "smartSkate.html",
-        "coverPhoto": "images/smartskate.jpeg",
+        "coverPhoto": "images/cajondoni.jpeg",
         "intro": "This digital fabrication project utilized laser cutting and 3D printing to create a Cornell Tech miniature music box. The hidden spinning plate holds a magnet that guides the red bus around the campus, creating a playful experience.",
         "tags": [
             "Digital Fabrication", "Ubiquitous Computing"
@@ -84,11 +84,11 @@
         "selected": true
     },
     {
-        "name": "The Cornell Tech Musicbox",
+        "name": "Cornell Tech Musicbox",
         "projectYearMonth": "Feb 2024",
         "collaborator": "Jou-An Chen, Shu-Wei Hsu, Tingrui Zhang",
         "page": "smartSkate.html",
-        "coverPhoto": "images/smartskate.jpeg",
+        "coverPhoto": "images/musicbox.gif",
         "intro": "This digital fabrication project utilized laser cutting and 3D printing to create a Cornell Tech miniature music box. The hidden spinning plate holds a magnet that guides the red bus around the campus, creating a playful experience.",
         "tags": [
             "Digital Fabrication"
