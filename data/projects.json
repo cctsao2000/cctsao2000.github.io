@@ -9,7 +9,8 @@
         "tags": [
             "Digital Fabrication"
         ],
-        "selected": true
+        "selected": true,
+        "pinned": false
     },
     {
         "name": "Snack Keeper",
@@ -21,7 +22,8 @@
         "tags": [
             "Ubiquitous Computing"
         ],
-        "selected": true
+        "selected": true,
+        "pinned": false
     },
     {
         "name": "Walkwise",
@@ -33,7 +35,8 @@
         "tags": [
             "Ubiquitous Computing"
         ],
-        "selected": true
+        "selected": true,
+        "pinned": false
     },
     {
         "name": "Pong Soccer",
@@ -45,11 +48,12 @@
         "tags": [
             "Human-Robot Interaction"
         ],
-        "selected": true
+        "selected": true,
+        "pinned": true
     },
     {
         "name": "Gazo",
-        "projectYearMonth": "July 2024",
+        "projectYearMonth": "Jul 2024",
         "collaborator": "",
         "page": "smartSkate.html",
         "coverPhoto": "images/gazo.jpeg",
@@ -57,7 +61,8 @@
         "tags": [
             "Brain-Computer Interface", "Digital Fabrication", "Ubiquitous Computing"
         ],
-        "selected": true
+        "selected": true,
+        "pinned": true
     },
     {
         "name": "Glens",
@@ -69,7 +74,8 @@
         "tags": [
             "Ubiquitous Computing"
         ],
-        "selected": true
+        "selected": true,
+        "pinned": false
     },
     {
         "name": "CajonDoni",
@@ -77,11 +83,12 @@
         "collaborator": "Jou-An Chen, Shu-Wei Hsu, Tingrui Zhang",
         "page": "smartSkate.html",
         "coverPhoto": "images/cajondoni.jpeg",
-        "intro": "This digital fabrication project utilized laser cutting and 3D printing to create a Cornell Tech miniature music box. The hidden spinning plate holds a magnet that guides the red bus around the campus, creating a playful experience.",
+        "intro": "",
         "tags": [
-            "Digital Fabrication", "Ubiquitous Computing"
+            "Ubiquitous Computing"
         ],
-        "selected": true
+        "selected": true,
+        "pinned": false
     },
     {
         "name": "Cornell Tech Musicbox",
@@ -93,7 +100,8 @@
         "tags": [
             "Digital Fabrication"
         ],
-        "selected": true
+        "selected": true,
+        "pinned": true
     },
     {
         "name": "SmartSkate",
@@ -105,6 +113,7 @@
         "tags": [
             "Ubiquitous Computing"
         ],
-        "selected": true
+        "selected": true,
+        "pinned": false
     }
 ]

@@ -24,11 +24,6 @@ section {
     padding: 0.5rem 0.8rem;
 }
 
-/* img.cover-image {
-    margin-right: 20px;
-    border-radius: 3%;
-} */
-
 img {
     margin-right: 10px;
     /* border-radius: 3%; */
@@ -47,7 +42,7 @@ b {
 
 #full-pro-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
     gap: 20px;
     list-style: none;
     padding: 0;
@@ -99,6 +94,18 @@ b {
 .project:hover .project-title-container {
     opacity: 0;
     transition: color 250ms ease;
+}
+
+.pinned-icon {
+    position: absolute;
+    top: 4%;
+    right: 6%;
+    color: white;
+    z-index: 10;
+}
+
+.pinned-icon i {
+    font-size: 20px;
 }
 
 .project-title-container {
@@ -167,4 +174,61 @@ b {
 .filter-button.active {
     background-color: #000;
     color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .project-title {
+        font-size: 18px;
+    }
+
+    .project-year-month {
+        font-size: 14px;
+    }
+
+    .project-cover {
+        max-width: 250px;
+        width: 250px;
+        height: 250px;
+        display: block;
+        border-radius: 5px;
+        margin: 0%;
+    }
+
+    .project {
+        background: #fff;
+        height: 250px;
+        width: 250px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        position: relative;
+    }
+
+    .project-tag {
+        margin-bottom: 0px;
+    }
+
+    #full-pro-list {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    #filter-container {
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .filter-button {
+        text-align: center;
+        font-size: 10px;
+        max-width: 15rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        background: #ddd;
+        border-radius: 0.5rem;
+    }
 }

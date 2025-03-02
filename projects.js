@@ -45,6 +45,8 @@ async function publishProjects() {
         tagButton.dataset.tag = tag;
         filterContainer.appendChild(tagButton);
     });
+    
+    projects.sort((a, b) => (b.pinned === true) - (a.pinned === true));
 
     /** Render Projects **/
     projects.forEach(project => {
@@ -61,9 +63,17 @@ async function publishProjects() {
             projectBlock.appendChild(coverPhoto);
         }
 
-        // Title Container
         const titleContainer = document.createElement("div");
         titleContainer.className = "project-title-container";
+
+        const overlay = document.createElement("div");
+        overlay.className = "project-overlay";
+        if (project.pinned) {
+            const pinIcon = document.createElement("span");
+            pinIcon.innerHTML = "<i class='fi fi-sr-thumbtack'></i>";
+            pinIcon.className = "pinned-icon";
+            overlay.appendChild(pinIcon);
+        }
 
         // Title
         const title = document.createElement("h2");
@@ -83,12 +93,8 @@ async function publishProjects() {
         titleContainer.appendChild(yearMonth);
 
         projectBlock.appendChild(titleContainer);
-
-        projectsList.appendChild(projectBlock);
-
-        const overlay = document.createElement("div");
-        overlay.className = "project-overlay";
         projectBlock.appendChild(overlay);
+
         projectsList.appendChild(projectBlock);
     });
 
