@@ -23,3 +23,31 @@ section {
 #full-abs-list li {
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    h3 {
+        font-size: 18px;
+    }
+
+    section {
+        margin-top: 25%;
+    }
+
+    .pub-title {
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 5px;
+    }
+
+    .pub-author {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 5px;
+    }
+
+    .pub-conf {
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 5px;
+    }
+}
