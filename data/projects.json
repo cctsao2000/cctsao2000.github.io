@@ -40,7 +40,7 @@
         "name": "Pong Soccer",
         "projectYearMonth": "Dec 2024",
         "collaborator": "",
-        "intro": "Pong Soccer is an interactive robot game where players are split into two teams, yellow and blue, competing to score goals. The game’s objective is to guide a robot equipped with a soccer bin to the opposing team’s goal by throwing ping- pong balls into designated bins.",
+        "intro": "Pong Soccer is an interactive robot game where players are divided into two teams, yellow and blue, competing to score goals. The game’s objective is to guide a robot equipped with a soccer bin to the opposing team’s goal by throwing ping- pong balls into designated bins.",
         "tags": [
             "Human-Robot Interaction"
         ],
