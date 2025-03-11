@@ -1,18 +1,20 @@
 [
     {
+        "id": "Amber-Puzzle-Box",
         "name": "Amber Puzzle Box",
         "projectYearMonth": "Feb 2025",
         "collaborator": "",
         "page": "smartSkate.html",
-        "coverPhoto": "images/puzzlebox.jpeg",
+        "coverPhoto": "images/puzzlebox.jpg",
         "intro": "This digital fabrication project utilized laser cutting and 3D printing to create a Cornell Tech miniature music box. The hidden spinning plate holds a magnet that guides the red bus around the campus, creating a playful experience.",
         "tags": [
             "Digital Fabrication"
         ],
         "selected": true,
-        "pinned": false
+        "pinned": true
     },
     {
+        "id": "Snack-Keeper",
         "name": "Snack Keeper",
         "projectYearMonth": "Feb 2025",
         "collaborator": "",
@@ -26,6 +28,7 @@
         "pinned": false
     },
     {
+        "id": "Walkwise",
         "name": "Walkwise",
         "projectYearMonth": "Dec 2024",
         "collaborator": "",
@@ -39,6 +42,7 @@
         "pinned": false
     },
     {
+        "id": "Pong-Soccer",
         "name": "Pong Soccer",
         "projectYearMonth": "Dec 2024",
         "collaborator": "",
@@ -52,6 +56,7 @@
         "pinned": true
     },
     {
+        "id": "Gazo",
         "name": "Gazo",
         "projectYearMonth": "Jul 2024",
         "collaborator": "",
@@ -65,6 +70,7 @@
         "pinned": true
     },
     {
+        "id": "Glens",
         "name": "Glens",
         "projectYearMonth": "Mar 2024",
         "collaborator": "",
@@ -78,6 +84,7 @@
         "pinned": false
     },
     {
+        "id": "CajonDoni",
         "name": "CajonDoni",
         "projectYearMonth": "Mar 2024",
         "collaborator": "Jou-An Chen, Shu-Wei Hsu, Tingrui Zhang",
@@ -91,6 +98,7 @@
         "pinned": false
     },
     {
+        "id": "Cornell-Tech-Musicbox",
         "name": "Cornell Tech Musicbox",
         "projectYearMonth": "Feb 2024",
         "collaborator": "Jou-An Chen, Shu-Wei Hsu, Tingrui Zhang",
@@ -104,6 +112,7 @@
         "pinned": true
     },
     {
+        "id": "SmartSkate",
         "name": "SmartSkate",
         "projectYearMonth": "Feb 2024",
         "collaborator": "",

@@ -54,6 +54,10 @@ async function publishProjects() {
         projectBlock.className = "project";
         projectBlock.dataset.tags = project.tags ? project.tags.join(",") : ""; 
 
+        const projectLink = document.createElement("a");
+        projectLink.className = "project-link";
+        projectLink.href = `project-details.html?id=${project.id}`;
+
         // Cover Photo
         if (project.coverPhoto) {
             const coverPhoto = document.createElement("img");
@@ -94,6 +98,7 @@ async function publishProjects() {
 
         projectBlock.appendChild(titleContainer);
         projectBlock.appendChild(overlay);
+        projectBlock.appendChild(projectLink)
 
         projectsList.appendChild(projectBlock);
     });
