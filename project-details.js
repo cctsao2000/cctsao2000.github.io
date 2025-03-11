@@ -1,3 +1,14 @@
+function formatProjectDate(dateString) {
+    const monthMap = {
+        'Jan': 'January', 'Feb': 'February', 'Mar': 'March', 'Apr': 'April',
+        'May': 'May', 'Jun': 'June', 'Jul': 'July', 'Aug': 'August',
+        'Sep': 'September', 'Oct': 'October', 'Nov': 'November', 'Dec': 'December'
+    };
+    
+    const [monthAbbr, year] = dateString.split(' ');
+    return `${monthMap[monthAbbr]}, ${year}`;
+}
+
 async function fetchProjectData() {
     try {
         const response = await fetch('data/projects.json');
@@ -22,9 +33,54 @@ async function loadProject() {
     document.querySelector("title").textContent = `${project.name} | Ching-Chih Amber Tsao`;
 
     document.querySelector("#project-title").textContent = project.name;
-    document.querySelector("#project-date").textContent = project.projectYearMonth;
-    document.querySelector("#project-image").src = project.coverPhoto;
-    document.querySelector("#project-image").alt = project.name;
+    document.querySelector("#project-date").textContent = formatProjectDate(project.projectYearMonth);
+
+
+    const folderPath = `http://localhost:3000/images/${project.id}`;
+    const imageContainer = document.querySelector("#project-gallery");
+
+    fetch(folderPath)
+        .then(response => response.json())
+        .then(imageNames => {
+            imageNames.forEach(imageName => {
+                const img = document.createElement("img");
+                img.src = `${folderPath}/${imageName}`;
+                img.alt = "Project Image";
+                img.style.width = "200px";
+                img.style.marginRight = "10px";
+
+                imageContainer.appendChild(img);
+            });
+        })
+        .catch(error => console.error("Error fetching images:", error));
+    
+    document.getElementById("project-details").appendChild(imageContainer);
+
+    // document.querySelector("#project-image").src = project.coverPhoto;
+    // document.querySelector("#project-image").alt = project.name;
+
+    // document.addEventListener("DOMContentLoaded", function() {
+    //     const imageContainer = document.createElement("div");
+    //     imageContainer.id = "image-scroll-container";
+    //     imageContainer.style.display = "flex";
+    //     imageContainer.style.overflowX = "auto";
+    //     imageContainer.style.whiteSpace = "nowrap";
+    //     imageContainer.style.width = "100%";
+        
+    //     // images_path = 
+    //     const images = ["image1.jpg", "image2.jpg", "image3.jpg"]; // Replace with actual image paths
+    //     images.forEach(src => {
+    //         const img = document.createElement("img");
+    //         img.src = src;
+    //         img.alt = "Project Image";
+    //         img.style.width = "200px"; // Adjust as needed
+    //         img.style.marginRight = "10px";
+    //         imageContainer.appendChild(img);
+    //     });
+        
+    //     document.getElementById("project-details").appendChild(imageContainer);
+    // });
+
     document.querySelector("#project-description").textContent = project.description;
 
     const tagsContainer = document.querySelector("#project-tags");

@@ -1,0 +1,12 @@
+#project-title {
+    font-weight: 500;
+    font-size: 34px;
+    padding-bottom: 0px;
+}
+
+#project-gallery {
+    display: "flex";
+    /* overflowX: "auto"; */
+    /* whiteSpace: "nowrap"; */
+    width: 100%;
+}
