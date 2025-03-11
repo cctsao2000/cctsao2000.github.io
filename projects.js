@@ -59,13 +59,13 @@ async function publishProjects() {
         projectLink.href = `project-details.html?id=${project.id}`;
 
         // Cover Photo
-        if (project.coverPhoto) {
-            const coverPhoto = document.createElement("img");
-            coverPhoto.src = project.coverPhoto;
-            coverPhoto.alt = project.name;
-            coverPhoto.className = "project-cover";
-            projectBlock.appendChild(coverPhoto);
-        }
+        const coverPhoto = document.createElement("img");
+        coverPhoto.src = `images/${project.id}/cover.jpeg`;
+        coverPhoto.onerror = () => {coverPhoto.src = `images/${project.id}/cover.gif`}
+        coverPhoto.alt = project.name;
+        coverPhoto.className = "project-cover";
+        projectBlock.appendChild(coverPhoto);
+        
 
         const titleContainer = document.createElement("div");
         titleContainer.className = "project-title-container";

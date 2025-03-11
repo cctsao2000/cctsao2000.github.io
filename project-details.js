@@ -34,54 +34,26 @@ async function loadProject() {
 
     document.querySelector("#project-title").textContent = project.name;
     document.querySelector("#project-date").textContent = formatProjectDate(project.projectYearMonth);
-
-
-    const folderPath = `http://localhost:3000/images/${project.id}`;
-    const imageContainer = document.querySelector("#project-gallery");
-
-    fetch(folderPath)
-        .then(response => response.json())
-        .then(imageNames => {
-            imageNames.forEach(imageName => {
-                const img = document.createElement("img");
-                img.src = `${folderPath}/${imageName}`;
-                img.alt = "Project Image";
-                img.style.width = "200px";
-                img.style.marginRight = "10px";
-
-                imageContainer.appendChild(img);
-            });
-        })
-        .catch(error => console.error("Error fetching images:", error));
     
-    document.getElementById("project-details").appendChild(imageContainer);
+    const images = [`images/${project.id}/cover`, `images/${project.id}/image1`, `images/${project.id}/image2`];
+    images.forEach(src => {
+        const img = document.createElement("img");
+        img.src = `${src}.jpeg`;
+        img.alt = "Project Image";
+        img.style.width = "300px";
+        img.style.marginRight = "15px";
+        img.onerror = () => {
+            img.src = `${src}.gif`;
+            img.onerror = () => {
+                img.src = `${src}.png`;
+            };
+        };
+        img.onload = () => {
+            document.getElementById("project-gallery").appendChild(img);
+        };
+    });
 
-    // document.querySelector("#project-image").src = project.coverPhoto;
-    // document.querySelector("#project-image").alt = project.name;
-
-    // document.addEventListener("DOMContentLoaded", function() {
-    //     const imageContainer = document.createElement("div");
-    //     imageContainer.id = "image-scroll-container";
-    //     imageContainer.style.display = "flex";
-    //     imageContainer.style.overflowX = "auto";
-    //     imageContainer.style.whiteSpace = "nowrap";
-    //     imageContainer.style.width = "100%";
-        
-    //     // images_path = 
-    //     const images = ["image1.jpg", "image2.jpg", "image3.jpg"]; // Replace with actual image paths
-    //     images.forEach(src => {
-    //         const img = document.createElement("img");
-    //         img.src = src;
-    //         img.alt = "Project Image";
-    //         img.style.width = "200px"; // Adjust as needed
-    //         img.style.marginRight = "10px";
-    //         imageContainer.appendChild(img);
-    //     });
-        
-    //     document.getElementById("project-details").appendChild(imageContainer);
-    // });
-
-    document.querySelector("#project-description").textContent = project.description;
+    document.querySelector("#project-description").textContent = project.intro;
 
     const tagsContainer = document.querySelector("#project-tags");
     project.tags.forEach(tag => {
