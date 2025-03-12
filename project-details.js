@@ -42,14 +42,15 @@ async function loadProject() {
         img.alt = "Project Image";
         img.style.width = "300px";
         img.style.marginRight = "15px";
+        document.getElementById("project-gallery").appendChild(img);
         img.onerror = () => {
             img.src = `${src}.gif`;
             img.onerror = () => {
                 img.src = `${src}.png`;
+                img.onerror = () => {
+                    document.getElementById("project-gallery").removeChild(img);
+                }
             };
-        };
-        img.onload = () => {
-            document.getElementById("project-gallery").appendChild(img);
         };
     });
 
