@@ -54,6 +54,11 @@ async function loadProject() {
         };
     });
 
+    if (project.collaborator != ""){
+        const collaboratorContainer = document.getElementById("project-author");
+        collaboratorContainer.textContent = `Collaborator: ${project.collaborator}`;
+    }
+
     document.querySelector("#project-description").textContent = project.intro;
 
     const tagsContainer = document.querySelector("#project-tags");

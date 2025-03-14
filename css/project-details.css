@@ -19,8 +19,13 @@
 }
 
 #project-description {
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 18px;
     line-height: 24px;
     padding-bottom: 20px;
+}
+
+#project-author {
+    font-size: 16px;
+    /* color: #404040; */
 }

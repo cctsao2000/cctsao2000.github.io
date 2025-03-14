@@ -27,8 +27,8 @@
         "id": "Walkwise",
         "name": "Walkwise",
         "projectYearMonth": "Dec 2024",
-        "collaborator": "",
-        "intro": "WalkWise is a conceptual product that is designed as a rollator walker add-on to guide users safely using a laser projector.",
+        "collaborator": "Nebil  Oumer, Didem Ergin, Qiyuan Zhou",
+        "intro": "WalkWise is a conceptual product that is designed as a rollator walker add-on to guide older adults safely using a laser projector.",
         "tags": [
             "Ubiquitous Computing"
         ],
@@ -39,7 +39,7 @@
         "id": "Pong-Soccer",
         "name": "Pong Soccer",
         "projectYearMonth": "Dec 2024",
-        "collaborator": "",
+        "collaborator": "Jou-An Chen, Qiyuan Zhou, Nicholas Huang, Siyan Wang",
         "intro": "Pong Soccer is an interactive robot game where players are divided into two teams, yellow and blue, competing to score goals. The game’s objective is to guide a robot equipped with a soccer bin to the opposing team’s goal by throwing ping-pong balls into designated bins.",
         "tags": [
             "Human-Robot Interaction"
