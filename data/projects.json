@@ -1,5 +1,25 @@
 [
     {
+        "id": "Taiwan-Classic-Pinball",
+        "name": "Taiwan Classic Pinball",
+        "projectYearMonth": "Mar 2025",
+        "collaborator": "Jou-An Chen",
+        "intro": "",
+        "tags": [
+            "Ubiquitous Computing"
+        ],
+        "video":"https://youtube.com/embed/dZYW2Gougwk",
+        "shorts": false,
+        "otherMaterials": [
+            {
+                "name": "",
+                "link": ""
+            }
+        ],
+        "selected": true,
+        "pinned": false
+    },
+    {
         "id": "Amber-Puzzle-Box",
         "name": "Amber Puzzle Box",
         "projectYearMonth": "Feb 2025",
@@ -7,6 +27,14 @@
         "intro": "Inspired by the delicate woodwork of a Yosegi puzzle box, I decided to work on a laser-cut version of the puzzle box. Yosegi-Zaiku（寄木細工）is a Japanese woodwork technique that utilizes the different colors of various types of wood to create geometric patterns on the wood surface. Traditional Yosegi Puzzle Boxes are mostly rectangular boxes, usually taking 4-27 steps to solve them. In my laser-cut version, I kept the repetitive geometric pattern and the puzzle elements to retain the Yosegi-like features and build a round shape box with self-designed mechanisms to ensure its uniqueness and originality. To match the theme of the rounded shape box, I utilized the spinning (rotating) feature and embedded a roller-bearing into the design. The mechanism features a box with an interlocking structure, and two additional layers of puzzle -- the nail stopper and the spinning magnet key, building on top of that.",
         "tags": [
             "Digital Fabrication"
+        ],
+        "video":"",
+        "shorts": false,
+        "otherMaterials": [
+            {
+                "name": "",
+                "link": ""
+            }
         ],
         "selected": true,
         "pinned": true
@@ -20,6 +48,14 @@
         "tags": [
             "Ubiquitous Computing"
         ],
+        "video":"https://youtube.com/embed/NMd0nqIMXc4?si=R9dacSJXgliFRTlI",
+        "shorts": true,
+        "otherMaterials": [
+            {
+                "name": "",
+                "link": ""
+            }
+        ],
         "selected": true,
         "pinned": false
     },
@@ -32,6 +68,14 @@
         "tags": [
             "Ubiquitous Computing"
         ],
+        "video":"",
+        "shorts": false,
+        "otherMaterials": [
+            {
+                "name": "",
+                "link": ""
+            }
+        ],
         "selected": true,
         "pinned": false
     },
@@ -43,6 +87,14 @@
         "intro": "Pong Soccer is an interactive robot game where players are divided into two teams, yellow and blue, competing to score goals. The game’s objective is to guide a robot equipped with a soccer bin to the opposing team’s goal by throwing ping-pong balls into designated bins.",
         "tags": [
             "Human-Robot Interaction"
+        ],
+        "video":"https://youtube.com/embed/c-LI4i0e-zc",
+        "shorts": true,
+        "otherMaterials": [
+            {
+                "name": "",
+                "link": ""
+            }
         ],
         "selected": true,
         "pinned": true
@@ -58,6 +110,14 @@
             "Digital Fabrication",
             "Ubiquitous Computing"
         ],
+        "video":"https://youtube.com/embed/BiMtzGTOs9c",
+        "shorts": false,
+        "otherMaterials": [
+            {
+                "name": "",
+                "link": ""
+            }
+        ],
         "selected": true,
         "pinned": true
     },
@@ -69,6 +129,14 @@
         "intro": "Reading comprehension can be challenging for non-native speakers of a language, particularly when encountering unfamiliar topics or lengthy passages with complex sentence structures. Glens represents a proof-of-concept solution that utilizes an eye-tracking mechanism to detect instances where readers experience significant decreases in reading speed or repeatedly revisit specific sections. By capturing the texts that cause difficulties, the Glens leverages generative AI to produce tailored explanations that simplify sentence structures or rephrase content, aiming to provide adequate support.",
         "tags": [
             "Ubiquitous Computing"
+        ],
+        "video":"https://youtube.com/embed/CZw1sfsocNA",
+        "shorts": false,
+        "otherMaterials": [
+            {
+                "name": "",
+                "link": ""
+            }
         ],
         "selected": true,
         "pinned": false
@@ -82,6 +150,14 @@
         "tags": [
             "Ubiquitous Computing"
         ],
+        "video":"https://www.youtube.com/embed/GL00br0ahc0",
+        "shorts": true,
+        "otherMaterials": [
+            {
+                "name": "",
+                "link": ""
+            }
+        ],
         "selected": true,
         "pinned": false
     },
@@ -94,6 +170,14 @@
         "tags": [
             "Digital Fabrication"
         ],
+        "video":"https://www.youtube.com/embed/SCqQvCODOw8",
+        "shorts": true,
+        "otherMaterials": [
+            {
+                "name": "",
+                "link": ""
+            }
+        ],
         "selected": true,
         "pinned": true
     },
@@ -105,6 +189,14 @@
         "intro": "SmartSkate is a wearable device designed for inline skaters to enhance their practice sessions. SmartSkate provides real-time alerts to users if they exceed safe speeds or are approaching obstacles. By connecting the device with a smartphone, SmartSkate generates practicing reports that allow skaters to keep track of their progress.",
         "tags": [
             "Ubiquitous Computing"
+        ],
+        "video":"https://youtube.com/embed/fRBaFWnDZAE?si=e23n6KxSdMQmnVsq",
+        "shorts": false,
+        "otherMaterials": [
+            {
+                "name": "",
+                "link": ""
+            }
         ],
         "selected": true,
         "pinned": false

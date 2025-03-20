@@ -60,6 +60,12 @@ async function loadProject() {
     }
 
     document.querySelector("#project-description").textContent = project.intro;
+    
+    document.querySelector("#project-video").src = project.video;
+    if (project.shorts) {
+        document.querySelector("#project-video").width = 315;
+        document.querySelector("#project-video").height = 560;
+    }
 
     const tagsContainer = document.querySelector("#project-tags");
     project.tags.forEach(tag => {
