@@ -6,7 +6,7 @@
     font-weight: 500;
     font-size: 34px;
     padding-top: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
 }
 
 #project-gallery {
@@ -19,7 +19,6 @@
 }
 
 #project-description {
-    /* font-style: italic; */
     font-size: 18px;
     line-height: 24px;
     padding-bottom: 20px;
@@ -27,10 +26,27 @@
 
 #project-author {
     font-size: 16px;
-    /* color: #404040; */
 }
 
 #project-video {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.project-tag {
+    text-align: center;
+    font-size: 90%;
+    font-weight: 400;
+    max-width: 10rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    background: #ddd;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+
+#project-tags {
+    padding-bottom: 8px;
 }

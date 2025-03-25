@@ -4,7 +4,7 @@
         "name": "Taiwan Classic Pinball",
         "projectYearMonth": "Mar 2025",
         "collaborator": "Jou-An Chen",
-        "intro": "",
+        "intro": "Pinball is a classic and traditional game in many night markets across Taiwan. It is a tabletop game where players launch small marbles onto a tilted board, aiming to land them in numbered or colored holes. Traditionally, players use a Mahjong ruler to shoot the marble, trying to land the marbles either very focused or very scattered to win the best prize. In this project, we fabricated a pinball game board mainly by laser cutting featuring an embedded CLUE board and LEDs to enhance interactivity and engagement.",
         "tags": [
             "Ubiquitous Computing"
         ],

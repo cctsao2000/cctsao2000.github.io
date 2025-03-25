@@ -71,7 +71,7 @@ async function loadProject() {
     project.tags.forEach(tag => {
         const tagElement = document.createElement("span");
         tagElement.textContent = tag;
-        tagElement.className = "tag is-info";
+        tagElement.className = "project-tag";
         tagsContainer.appendChild(tagElement);
     });
 }
