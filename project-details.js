@@ -74,6 +74,26 @@ async function loadProject() {
         tagElement.className = "project-tag";
         tagsContainer.appendChild(tagElement);
     });
+
+    var otherMaterials = project.otherMaterials;
+
+    if (otherMaterials) {
+        otherMaterials.forEach(material => {
+            if (material.name === "Instructables") {
+                var instructablesLink = document.createElement("a");
+                instructablesLink.href = material.link;
+                instructablesLink.target = "_blank";
+                
+                var instructablesIcon = document.createElement("img");
+                instructablesIcon.src = "images/instructables.png";
+                instructablesIcon.width = 200;
+                instructablesIcon.alt = "Instructables";
+                instructablesIcon.style.float = "right";
+                instructablesLink.appendChild(instructablesIcon);
+                document.getElementById("project-title").appendChild(instructablesLink);
+            }
+        });
+    }
 }
 
 document.addEventListener("DOMContentLoaded", loadProject);
