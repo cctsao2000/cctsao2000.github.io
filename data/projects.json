@@ -8,6 +8,7 @@
         "tags": [
             "Ubiquitous Computing"
         ],
+        "details": "",
         "video":"https://youtube.com/embed/dZYW2Gougwk",
         "shorts": false,
         "otherMaterials": [
@@ -24,11 +25,12 @@
         "name": "Amber Puzzle Box",
         "projectYearMonth": "Feb 2025",
         "collaborator": "",
-        "intro": "Inspired by the delicate woodwork of a Yosegi puzzle box, I decided to work on a laser-cut version of the puzzle box. Yosegi-Zaiku（寄木細工）is a Japanese woodwork technique that utilizes the different colors of various types of wood to create geometric patterns on the wood surface. Traditional Yosegi Puzzle Boxes are mostly rectangular boxes, usually taking 4-27 steps to solve them. In my laser-cut version, I kept the repetitive geometric pattern and the puzzle elements to retain the Yosegi-like features and build a round shape box with self-designed mechanisms to ensure its uniqueness and originality. To match the theme of the rounded shape box, I utilized the spinning (rotating) feature and embedded a roller-bearing into the design. The mechanism features a box with an interlocking structure, and two additional layers of puzzle -- the nail stopper and the spinning magnet key, building on top of that.",
+        "intro": "Inspired by the delicate woodwork of a Yosegi puzzle box, I decided to work on a laser-cut version of the puzzle box. Yosegi-Zaiku（寄木細工）is a Japanese woodwork technique that utilizes the different colors of various types of wood to create geometric patterns on the wood surface. Traditional Yosegi Puzzle Boxes are mostly rectangular boxes, usually taking 4-27 steps to solve them. In my laser-cut version, I kept the repetitive geometric pattern and the puzzle elements to retain the Yosegi-like features and build a round shape box with self-designed mechanisms to ensure its uniqueness and originality. To match the theme of the rounded shape box, I utilized the spinning (rotating) feature and embedded a roller-bearing into the design. The mechanism features a box with an interlocking structure, and two additional layers of puzzle -- the nail stopper and the spinning magnet key.",
         "tags": [
             "Digital Fabrication"
         ],
-        "video":"",
+        "details": "The mechanism of the puzzle box can be divided into three parts: <b> the interlocking box, the nail stopper, and the spinning magnet key </b>. The bottom layer of the puzzle - the interlocking box, requires rotating the lid to a certain degree to pull the lid up. To lock this box, I added a nail stopper and two slots in the middle layer. To ensure the durability of the stopper, instead of assembling using wood sticks, the nail stopper is 3D-printed using PLA. To lift the nails from the slots, I decided to embed a small magnet on the upper layer; therefore, it will require attaching a thin piece of metal on the top of the nails to allow magnetic attraction (here I use the leg of a fastener). <br><br> The top layer was originally designed as a spinning plate that requires the player to spin the plate to the designated angle to lift the nails. However, as a puzzle, I figured the solution should be more complicated. Therefore, I changed the design to a 3-layer structure. The player will have to move the part with the magnet embedded from the first layer to the last layer, which is right above the magnetic nails to allow the magnetic force to lift the nails. I designed the moving part (the magnet keys) to be hidden in the top-most layer to maintain the cylinder shape when the box is locked, making it a bit tricky to directly pull it out. To move the part easily, the player can simply spin the plate quickly, <b>the centrifugal force</b> will bring the part with the magnet to the outer track, thus falling to the bottom layer. <br><br> One thing worth noting is that I designed the parts to be connected with the box at all times, which could greatly reduce the risk of the player losing any small parts when solving the puzzle, simply moving the part correctly without removing it will lead the player to solve the puzzle.",
+        "video":"https://youtube.com/embed/4-LnBQ3DmpA",
         "shorts": false,
         "otherMaterials": [
             {
@@ -48,6 +50,7 @@
         "tags": [
             "Ubiquitous Computing"
         ],
+        "details": "",
         "video":"https://youtube.com/embed/NMd0nqIMXc4?si=R9dacSJXgliFRTlI",
         "shorts": true,
         "otherMaterials": [
@@ -68,6 +71,7 @@
         "tags": [
             "Ubiquitous Computing"
         ],
+        "details": "",
         "video":"",
         "shorts": false,
         "otherMaterials": [
@@ -84,10 +88,11 @@
         "name": "Pong Soccer",
         "projectYearMonth": "Dec 2024",
         "collaborator": "Jou-An Chen, Qiyuan Zhou, Nicholas Huang, Siyan Wang",
-        "intro": "Pong Soccer is an interactive robot game where players are divided into two teams, yellow and blue, competing to score goals. The game’s objective is to guide a robot equipped with a soccer bin to the opposing team’s goal by throwing ping-pong balls into designated bins.",
+        "intro": "Pong Soccer is an interactive robot game designed for the K-12 initiative. Students are divided into two teams, yellow and blue, competing to score goals. The game’s objective is to guide a robot equipped with a soccer bin to the opposing team’s goal by throwing ping-pong balls into designated bins.",
         "tags": [
             "Human-Robot Interaction"
         ],
+        "details": "The inspiration for the robot’s behavior draws from popular sports such as soccer, basketball, and ping pong. In this game, the robot mimics the behavior of a soccer ball, with the participants acting as players who, instead of kicking a ball, throw ping-pong balls into the robot’s designated bins to control its movement on the field. <br><br> The robot interacts with players through a combination of movement, lights, and sound. At the start of the game, the robot emits a honking sound to signal the start of the game. When a player throws a ball into the yellow bin, the robot responds with a “yellow team scores” audio, accompanied by a yellow light flash and movement toward the blue team’s goal. Similarly, when a ball is thrown into the blue team’s bin, the robot moves toward the yellow team’s goal and signals with blue lights and sound. When a team scores by reaching the opposing team’s goal, the robot announces the score with a corresponding sound and flashes the team’s color lights multiple times to celebrate the achievement. <br><br> The robot control architecture is made up of three subsystems: <b> the Ball Detection Subsystem, the Navigate Subsystem, and the Communication Subsystem </b>. The Ball Detection and Communication Subsystems run on a Raspberry Pi, which is connected to two motion sensors placed on either side of the soccer bin. These sensors detect when a ball enters the bin by measuring if the proximity exceeds a set threshold. Once a ball is detected, the Raspberry Pi sends a WebSocket message to the ROS2 node on the TurtleBot4 robot. The robot then uses this message to decide the direction and distance it needs to move. The Raspberry Pi server also keeps track of how many times each team scores to determine the winner. This architecture decouples the robot’s navigation and sensor detection subsystems, making it well-suited for the game by allowing greater flexibility and robustness in using sensor data. It ensures real-time responsiveness to player actions while providing reliable and accurate detection.",
         "video":"https://youtube.com/embed/c-LI4i0e-zc",
         "shorts": true,
         "otherMaterials": [
@@ -110,6 +115,7 @@
             "Digital Fabrication",
             "Ubiquitous Computing"
         ],
+        "details": "",
         "video":"https://youtube.com/embed/M_aCQ9osfOo",
         "shorts": false,
         "otherMaterials": [
@@ -130,6 +136,7 @@
         "tags": [
             "Ubiquitous Computing"
         ],
+        "details": "",
         "video":"https://youtube.com/embed/CZw1sfsocNA",
         "shorts": false,
         "otherMaterials": [
@@ -150,6 +157,7 @@
         "tags": [
             "Ubiquitous Computing"
         ],
+        "details": "",
         "video":"https://www.youtube.com/embed/GL00br0ahc0",
         "shorts": true,
         "otherMaterials": [
@@ -170,6 +178,7 @@
         "tags": [
             "Digital Fabrication"
         ],
+        "details": "",
         "video":"https://www.youtube.com/embed/SCqQvCODOw8",
         "shorts": true,
         "otherMaterials": [
@@ -190,6 +199,7 @@
         "tags": [
             "Ubiquitous Computing"
         ],
+        "details": "",
         "video":"https://youtube.com/embed/fRBaFWnDZAE?si=e23n6KxSdMQmnVsq",
         "shorts": false,
         "otherMaterials": [

@@ -60,7 +60,8 @@ async function loadProject() {
     }
 
     document.querySelector("#project-description").textContent = project.intro;
-    
+    document.querySelector("#project-detail-description").innerHTML = project.details;
+
     document.querySelector("#project-video").src = project.video;
     if (project.shorts) {
         document.querySelector("#project-video").width = 315;
@@ -86,11 +87,11 @@ async function loadProject() {
                 
                 var instructablesIcon = document.createElement("img");
                 instructablesIcon.src = "images/instructables.png";
-                instructablesIcon.width = 200;
+                instructablesIcon.width = 180;
                 instructablesIcon.alt = "Instructables";
                 instructablesIcon.style.float = "right";
                 instructablesLink.appendChild(instructablesIcon);
-                document.getElementById("project-title").appendChild(instructablesLink);
+                document.getElementById("project-date").appendChild(instructablesLink);
             }
         });
     }

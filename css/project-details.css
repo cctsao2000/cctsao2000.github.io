@@ -19,9 +19,16 @@
 }
 
 #project-description {
+    font-style: italic;
     font-size: 18px;
     line-height: 24px;
     padding-bottom: 20px;
+}
+
+#project-detail-description {
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 10px;
 }
 
 #project-author {
@@ -48,5 +55,5 @@
 }
 
 #project-tags {
-    padding-bottom: 8px;
+    margin-bottom: 1rem;
 }
