@@ -8,7 +8,7 @@
         "tags": [
             "Ubiquitous Computing"
         ],
-        "details": "",
+        "details": "<img src='images/Taiwan-Classic-Pinball/story_board.jpeg' width=600px></img>",
         "video":"https://youtube.com/embed/dZYW2Gougwk",
         "shorts": false,
         "otherMaterials": [
@@ -50,7 +50,7 @@
         "tags": [
             "Ubiquitous Computing"
         ],
-        "details": "",
+        "details": "Snack Keeper is a smart device meant to be set up on the kitchen overhead cabinet, which has been used as a snack cabinet. I used to check the snack cabinet every day and sometimes get some snacks, this bad habit caused me to eat more snacks than I was supposed to. As I am now on a healthy diet, my roommate and I set up a rule for opening the snack cabinet, which is to limit the door opening time to twice. The Snack Keeper is a physical device to realize this idea. I used the on-board accelerometer to detect door movements and connect a servo motor to control a door latch. Once the door opening time reaches 2, the door will be locked for 24 hours.<br><br> The door opening detection requires testing in the actual environment (i.e., on the cabinet). I tested the x-accelerometer to get a threshold of detecting as the door opened.The Snack Keeper has two statuses: locked and not locked. Snack Keeper is designed to present different information in these two states. Under the ‘not locked’ state, the screen will show the count of the door being opened with the latch staying up; under the ‘locked’ state, the screen will display the time until the next time the Snack Keeper is unlocked. Once the Snack Keeper enters the locked state, a timestamp is recorded, and the remaining locked time is calculated using the set locked time and the timestamp’s difference with the current time (i.e., 86400 – (current time – locked timestamp)). In case of special needs to open the cabinet while it’s locked, I designed a temporary unlock function that requires the user to press buttons A and B simultaneously, the latch will lift for a short time without affecting the remaining locked time after it’s locked again.",
         "video":"https://youtube.com/embed/NMd0nqIMXc4?si=R9dacSJXgliFRTlI",
         "shorts": true,
         "otherMaterials": [
