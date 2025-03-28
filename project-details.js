@@ -80,13 +80,27 @@ async function loadProject() {
 
     if (otherMaterials) {
         otherMaterials.forEach(material => {
+            if (material.name === "PDF") {
+                var pdfLink = document.createElement("a");
+                pdfLink.href = material.link;
+                pdfLink.target = "_blank";
+                
+                var pdfIcon = document.createElement("img");
+                pdfIcon.src = "icon/pdf.png";
+                pdfIcon.width = 50;
+                pdfIcon.alt = "PDF";
+                pdfIcon.style.float = "right";
+                pdfLink.appendChild(pdfIcon);
+                document.getElementById("project-date").appendChild(pdfLink);
+            }
+
             if (material.name === "Instructables") {
                 var instructablesLink = document.createElement("a");
                 instructablesLink.href = material.link;
                 instructablesLink.target = "_blank";
                 
                 var instructablesIcon = document.createElement("img");
-                instructablesIcon.src = "images/instructables.png";
+                instructablesIcon.src = "icon/instructables.png";
                 instructablesIcon.width = 180;
                 instructablesIcon.alt = "Instructables";
                 instructablesIcon.style.float = "right";
