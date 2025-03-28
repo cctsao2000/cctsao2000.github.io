@@ -7,10 +7,11 @@
         "location": "Boulder, Colorado, USA",
         "doi": "https://doi.org/10.1145/3610978.3640742",
         "pdf": "files/HRI24.pdf",
+        "coverImage": "images/personality.jpg",
         "otherMaterials": [
             {
                 "name": "Poster",
-                "link": "files/HRI24_Poster"
+                "link": "files/HRI24_Poster.pdf"
             }
         ],
         "selected":false,
@@ -24,6 +25,7 @@
         "location": "Stockholm, Sweden",
         "doi": "https://doi.org/10.1145/3568294.3580171",
         "pdf": "files/HRI23.pdf",
+        "coverImage": "images/impulsive.jpg",
         "otherMaterials": [
             {
                 "name": "Poster",
@@ -45,6 +47,7 @@
         "location": "Maui, Hawaii, USA",
         "doi": "https://hdl.handle.net/10125/102821",
         "pdf": "files/HICSS.pdf",
+        "coverImage": "images/eeg.jpeg",
         "otherMaterials": [
             {
                 "name": "Slides",
@@ -70,6 +73,7 @@
         "location": "Online",
         "doi": "https://doi.org/10.1109/HRI53351.2022.9889676",
         "pdf": "files/HRI22.pdf",
+        "coverImage": "images/topicmodel.jpg",
         "otherMaterials": [
             {
                 "name": "Slides",
@@ -90,6 +94,7 @@
         "conference": "Neuroscience 2024",
         "location": "Chicago, Illinois, USA",
         "pdf": "https://www.sfn.org/-/media/SfN/Documents/NEW-SfN/Meetings/Neuroscience-2024/Abstracts-and-Sessions/Abstract-PDFs/SFN24_Abstracts-PDF-Late-Breaking-Posters.pdf#page=450",
+        "coverImage": "images/gazo.jpeg",
         "otherMaterials": [
             {
                 "name": "Poster",
@@ -113,6 +118,7 @@
         "authorship": "Yu-Lin Chu, Ching-Chih Tsao, Chi-Ming Chung, Cian-Fong Hung, Yao-Yu Lee, Jui-Bang Lu, Yang Wu, Yi-Huan Chen, Yu-Te Wang",
         "conference": "2024 IEEE Brain Discovery & Neurotechnology Workshop",
         "location": "Chicago, Illinois, USA",
+        "coverImage": "images/brainprint.jpeg",
         "otherMaterials": [
             {
                 "name": "Poster",
