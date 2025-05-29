@@ -40,7 +40,7 @@ async function loadProject() {
         const img = document.createElement("img");
         img.src = `${src}.jpeg`;
         img.alt = "Project Image";
-        img.style.width = "300px";
+        img.style.height = "300px";
         img.style.marginRight = "15px";
         document.getElementById("project-gallery").appendChild(img);
         img.onerror = () => {

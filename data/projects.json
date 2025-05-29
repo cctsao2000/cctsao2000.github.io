@@ -1,12 +1,57 @@
 [
     {
+        "id": "Robo-Neko",
+        "name": "Robo Neko",
+        "projectYearMonth": "May 2025",
+        "collaborator": "Jou-An Chen, Qiyuan Zhou, Nicholas Huang",
+        "intro": "",
+        "tags": [
+            "Ubiquitous Computing",
+            "Human-Robot Interaction",
+            "Digital Fabrication"
+        ],
+        "details": "",
+        "video":"https://youtube.com/embed/e9SBmivSKDY",
+        "shorts": false,
+        "otherMaterials": [
+            {
+                "name": "",
+                "link": ""
+            }
+        ],
+        "selected": true,
+        "pinned": true
+    },
+    {
+        "id": "Smart-Glove",
+        "name": "ADAPT Smart Glove",
+        "projectYearMonth": "May 2025",
+        "collaborator": "",
+        "intro": "",
+        "tags": [
+            "Ubiquitous Computing"
+        ],
+        "details": "",
+        "video":"https://youtube.com/embed/do_Suy_QJ84",
+        "shorts": false,
+        "otherMaterials": [
+            {
+                "name": "Instructables",
+                "link": "https://www.instructables.com/Smart-Glove-an-Interactive-Manual-on-Hand/"
+            }
+        ],
+        "selected": true,
+        "pinned": true
+    },
+    {
         "id": "Taiwan-Classic-Pinball",
         "name": "Taiwan Classic Pinball",
         "projectYearMonth": "Mar 2025",
         "collaborator": "Jou-An Chen",
         "intro": "Pinball is a classic and traditional game in many night markets across Taiwan. It is a tabletop game where players launch small marbles onto a tilted board, aiming to land them in numbered or colored holes. Traditionally, players use a Mahjong ruler to shoot the marble, trying to land the marbles either very focused or very scattered to win the best prize. In this project, we fabricated a pinball game board mainly by laser cutting featuring an embedded CLUE board and LEDs to enhance interactivity and engagement.",
         "tags": [
-            "Ubiquitous Computing"
+            "Ubiquitous Computing",
+            "Digital Fabrication"
         ],
         "details": "<img src='images/Taiwan-Classic-Pinball/story_board.jpeg' width=600px></img>",
         "video":"https://youtube.com/embed/dZYW2Gougwk",
@@ -48,7 +93,8 @@
         "collaborator": "",
         "intro": "Snack Keeper is a device designed to limit the number of times I open my snack cabinet to check or get snacks. The screen on the device will show the count of door being opened, once the door open count reached to two, a motor-controlled latch will locked the door for a set amount of time. ",
         "tags": [
-            "Ubiquitous Computing"
+            "Ubiquitous Computing",
+            "Digital Fabrication"
         ],
         "details": "Snack Keeper is a smart device meant to be set up on the kitchen overhead cabinet, which has been used as a snack cabinet. I used to check the snack cabinet every day and sometimes get some snacks, this bad habit caused me to eat more snacks than I was supposed to. As I am now on a healthy diet, my roommate and I set up a rule for opening the snack cabinet, which is to limit the door opening time to twice. The Snack Keeper is a physical device to realize this idea. I used the on-board accelerometer to detect door movements and connect a servo motor to control a door latch. Once the door opening time reaches 2, the door will be locked for 24 hours.<br><br> The door opening detection requires testing in the actual environment (i.e., on the cabinet). I tested the x-accelerometer to get a threshold of detecting as the door opened.The Snack Keeper has two statuses: locked and not locked. Snack Keeper is designed to present different information in these two states. Under the ‘not locked’ state, the screen will show the count of the door being opened with the latch staying up; under the ‘locked’ state, the screen will display the time until the next time the Snack Keeper is unlocked. Once the Snack Keeper enters the locked state, a timestamp is recorded, and the remaining locked time is calculated using the set locked time and the timestamp’s difference with the current time (i.e., 86400 – (current time – locked timestamp)). In case of special needs to open the cabinet while it’s locked, I designed a temporary unlock function that requires the user to press buttons A and B simultaneously, the latch will lift for a short time without affecting the remaining locked time after it’s locked again.",
         "video":"https://youtube.com/embed/NMd0nqIMXc4?si=R9dacSJXgliFRTlI",
@@ -155,7 +201,8 @@
         "collaborator": "Jou-An Chen, Shu-Wei Hsu, Tingrui Zhang",
         "intro": "CajonDoni is a cajon game consisting of a mini cajon and a self-developed rhythm game. Using laser cutting, 3D printing, and electronic sensors, we designed a Cajon that can be played both individually and with the web-based game.",
         "tags": [
-            "Ubiquitous Computing"
+            "Ubiquitous Computing",
+            "Digital Fabrication"
         ],
         "details": "",
         "video":"https://www.youtube.com/embed/GL00br0ahc0",
