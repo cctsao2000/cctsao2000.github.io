@@ -4,6 +4,7 @@
         "name": "Robo Neko",
         "projectYearMonth": "May 2025",
         "collaborator": "Jou-An Chen, Qiyuan Zhou, Nicholas Huang",
+        "highlight": "This project was presented at the 106th NY Hardware Meetup and will be presenting at the Teardown 2025, Portland.",
         "intro": "Robo Neko is an interactive desktop robot with customized personality, designed to provide emotional support, companionship, and a fun way to teach children about pet care. We used a combination of standard PLA and conductive PLA to 3D print the cat, allowing it to sense touch while maintaining an aesthetically appealing appearance.",
         "tags": [
             "Ubiquitous Computing",
@@ -27,6 +28,7 @@
         "name": "ADAPT Smart Glove",
         "projectYearMonth": "May 2025",
         "collaborator": "",
+        "highlight": "This project was presented at the 106th NY Hardware Meetup.",
         "intro": "Smart Glove is a wearable assistive device that helps users interact with smart home technologies through touch and audio feedback. It is designed for people with disabilities (intellectual/developmental disability, visual impairments, reading difficulties), older adults, and those who need hands-on guidance to learn smart home technologies intuitively. User could simply wear the gloves and touch different parts of the smart technologies (e.g., button, knob, screen) and they will receive audio instructions on how to operate the machine.",
         "tags": [
             "Ubiquitous Computing"
@@ -70,6 +72,7 @@
         "name": "Amber Puzzle Box",
         "projectYearMonth": "Feb 2025",
         "collaborator": "",
+        "highlight": "This project won the Judges' Prize in the Autodesk Instructables All Things Pi Contest.",
         "intro": "Inspired by the delicate woodwork of a Yosegi puzzle box, I decided to work on a laser-cut version of the puzzle box. Yosegi-Zaiku（寄木細工）is a Japanese woodwork technique that utilizes the different colors of various types of wood to create geometric patterns on the wood surface. Traditional Yosegi Puzzle Boxes are mostly rectangular boxes, usually taking 4-27 steps to solve them. In my laser-cut version, I kept the repetitive geometric pattern and the puzzle elements to retain the Yosegi-like features and build a round shape box with self-designed mechanisms to ensure its uniqueness and originality. To match the theme of the rounded shape box, I utilized the spinning (rotating) feature and embedded a roller-bearing into the design. The mechanism features a box with an interlocking structure, and two additional layers of puzzle -- the nail stopper and the spinning magnet key.",
         "tags": [
             "Digital Fabrication"
@@ -155,6 +158,7 @@
         "name": "Gazo",
         "projectYearMonth": "Jul 2024",
         "collaborator": "",
+        "highlight": "This project was presented at Neuroscience 2024, Chicago.",
         "intro": "Gazo is a 3D-printed EEG-based BCI device that features a portable, standalone, and monocle design. Gazo, consisting of a sensing headset, a display module ,and an EEG expansion module, is designed to accommodate a wide range of use cases that require mobile EEG capabilities.",
         "tags": [
             "Brain-Computer Interface",
