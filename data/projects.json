@@ -117,7 +117,7 @@
         "tags": [
             "Ubiquitous Computing"
         ],
-        "details": "",
+        "details": "In this project, we worked with Weill Cornell to take on the challenge - 'How might we use technology to support the everyday life for older people with cognitive deficits (e.g. mild cognitive impairment) so they remain independent?' Our idea, Walkwise, is a laser-guidance walker add-on designed to support older adults with cognitive deficits. It aims to address mobility challenges and the fear of disorientation through features like route projection, caregiver connection, and gamification. The solution leverages IoT and embedded systems, using readily available components such as GPS sensors and e-SIM for real-time tracking. <br><img src='images/Walkwise/walkwise_feature.png' width=800>",
         "video":"",
         "shorts": false,
         "otherMaterials": [
@@ -230,8 +230,8 @@
         "shorts": true,
         "otherMaterials": [
             {
-                "name": "",
-                "link": ""
+                "name": "PDF",
+                "link": "files/cornelltech_musicbox.pdf"
             }
         ],
         "selected": true,

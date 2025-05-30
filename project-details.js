@@ -62,10 +62,15 @@ async function loadProject() {
     document.querySelector("#project-description").textContent = project.intro;
     document.querySelector("#project-detail-description").innerHTML = project.details;
 
-    document.querySelector("#project-video").src = project.video;
-    if (project.shorts) {
-        document.querySelector("#project-video").width = 315;
-        document.querySelector("#project-video").height = 560;
+    if (project.video != ""){
+        document.querySelector("#project-video").src = project.video;
+        if (project.shorts) {
+            document.querySelector("#project-video").width = 315;
+            document.querySelector("#project-video").height = 560;
+        }
+    }
+    else {
+        document.querySelector("#project-video").style.display = "none";
     }
 
     const tagsContainer = document.querySelector("#project-tags");
