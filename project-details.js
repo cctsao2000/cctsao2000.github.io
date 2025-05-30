@@ -89,7 +89,9 @@ async function loadProject() {
                 pdfIcon.src = "icon/pdf.png";
                 pdfIcon.width = 50;
                 pdfIcon.alt = "PDF";
-                pdfIcon.style.float = "right";
+                pdfIcon.style.position = "absolute";
+                pdfIcon.style.right = "0";
+                pdfIcon.style.zIndex = 10;
                 pdfLink.appendChild(pdfIcon);
                 document.getElementById("project-date").appendChild(pdfLink);
             }
@@ -103,7 +105,9 @@ async function loadProject() {
                 instructablesIcon.src = "icon/instructables.png";
                 instructablesIcon.width = 180;
                 instructablesIcon.alt = "Instructables";
-                instructablesIcon.style.float = "right";
+                instructablesIcon.style.position = "absolute";
+                instructablesIcon.style.right = "0";
+                instructablesIcon.style.zIndex = 10;
                 instructablesLink.appendChild(instructablesIcon);
                 document.getElementById("project-date").appendChild(instructablesLink);
             }

@@ -4,19 +4,19 @@
         "name": "Robo Neko",
         "projectYearMonth": "May 2025",
         "collaborator": "Jou-An Chen, Qiyuan Zhou, Nicholas Huang",
-        "intro": "",
+        "intro": "Robo Neko is an interactive desktop robot with customized personality, designed to provide emotional support, companionship, and a fun way to teach children about pet care. We used a combination of standard PLA and conductive PLA to 3D print the cat, allowing it to sense touch while maintaining an aesthetically appealing appearance.",
         "tags": [
             "Ubiquitous Computing",
             "Human-Robot Interaction",
             "Digital Fabrication"
         ],
-        "details": "",
+        "details": "In a world increasingly driven by fast-paced digital interactions, many people, especially children and the elderly, find themselves in need of companionship that is emotionally supportive yet low-pressure. RoboNeko is our response to that need: a small, expressive robotic cat designed to offer meaningful interaction through simple, tactile engagement. Inspired by nostalgic digital companions like Tamagotchi and Travel Frog, RoboNeko combines the emotional warmth of a pet with the simplicity and accessibility of a toy. <br><br>Unlike traditional robotic pets, RoboNeko introduces a gamified intimacy system and personalized petting preferences, making each interaction feel unique and emotionally resonant. Users build a relationship with RoboNeko by discovering how it likes to be pet—gaining trust and unlocking rewards like themed digital postcards. Through its responsive physical movements, sounds, and evolving personality, RoboNeko encourages empathy, patience, and emotional connection. <br><br>Our project blends playful design, social robotics, and emotional computing into a compact, low-maintenance companion that brings joy to users of all ages. Whether teaching children about pet care or providing comfort to those experiencing loneliness, RoboNeko aims to reimagine how we connect with technology and with ourselves. <br><br><img src='images/Robo-Neko/storyboard.png'><br><br>RoboNeko, as a companion social robot, is designed with a visually appealing appearance to encourage users to form an emotional connection with it. To align with the theme of sending postcards to users, the cat carries a camera around its neck. The design consists of multiple separate components, including two movable parts (the hands and tail) and five conductive touch-sensing areas (the ears, chin, belly, and back). These parts are printed individually and assembled after wiring for their specific functions.",
         "video":"https://youtube.com/embed/e9SBmivSKDY",
         "shorts": false,
         "otherMaterials": [
             {
-                "name": "",
-                "link": ""
+                "name": "PDF",
+                "link": "files/RoboNeko_Writeup.pdf"
             }
         ],
         "selected": true,
@@ -27,11 +27,11 @@
         "name": "ADAPT Smart Glove",
         "projectYearMonth": "May 2025",
         "collaborator": "",
-        "intro": "",
+        "intro": "Smart Glove is a wearable assistive device that helps users interact with smart home technologies through touch and audio feedback. It is designed for people with disabilities (intellectual/developmental disability, visual impairments, reading difficulties), older adults, and those who need hands-on guidance to learn smart home technologies intuitively. User could simply wear the gloves and touch different parts of the smart technologies (e.g., button, knob, screen) and they will receive audio instructions on how to operate the machine.",
         "tags": [
             "Ubiquitous Computing"
         ],
-        "details": "",
+        "details": "In this project, we collaborated with ADAPT Community Network to design a learning tool for the Smart Lab—a space created for visitors to explore and understand smart technologies. This challenge led us to develop the Smart Glove, a simple and intuitive solution.<br><br>The idea for the Smart Glove stemmed from my experience interviewing older adults and individuals with mild cognitive impairment. Many of them struggle to use devices with multiple buttons and complex interfaces. For example, laundry machines often have confusing controls, making it difficult to understand the correct sequence of operations. That’s where the Smart Glove comes in. By simply wearing the glove and interacting with the device, users can learn what each button does without actually activating them—avoiding unintended actions. The Smart Glove offers a risk-free way for users to build confidence in using technology.<br><br><img src='images/Smart-Glove/usermap.png' width=800><br><br>The Smart Glove utilizes Near Field Communication (NFC) technology, with the sensing area repositioned to the fingertip to detect NFC stickers on existing devices. It then provides audio instructions through speakers or headphones. <br><br>While this prototype is primarily intended for display and educational use in the Smart Lab, we envision future versions being used in senior centers, assisted living facilities, and other personal living environments.",
         "video":"https://youtube.com/embed/do_Suy_QJ84",
         "shorts": false,
         "otherMaterials": [
