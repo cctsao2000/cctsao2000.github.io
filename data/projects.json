@@ -28,7 +28,7 @@
         "name": "ADAPT Smart Glove",
         "projectYearMonth": "May 2025",
         "collaborator": "",
-        "highlight": "This project was presented at the 106th NY Hardware Meetup.",
+        "highlight": "This project is a finalist (in judging) in the Autodesk Instructables Make it Wearable Contest. <br>This project was presented at the 106th NY Hardware Meetup.",
         "intro": "Smart Glove is a wearable assistive device that helps users interact with smart home technologies through touch and audio feedback. It is designed for people with disabilities (intellectual/developmental disability, visual impairments, reading difficulties), older adults, and those who need hands-on guidance to learn smart home technologies intuitively. User could simply wear the gloves and touch different parts of the smart technologies (e.g., button, knob, screen) and they will receive audio instructions on how to operate the machine.",
         "tags": [
             "Ubiquitous Computing"
@@ -50,6 +50,7 @@
         "name": "Taiwan Classic Pinball",
         "projectYearMonth": "Mar 2025",
         "collaborator": "Jou-An Chen",
+        "highlight": "",
         "intro": "Pinball is a classic and traditional game in many night markets across Taiwan. It is a tabletop game where players launch small marbles onto a tilted board, aiming to land them in numbered or colored holes. Traditionally, players use a Mahjong ruler to shoot the marble, trying to land the marbles either very focused or very scattered to win the best prize. In this project, we fabricated a pinball game board mainly by laser cutting featuring an embedded CLUE board and LEDs to enhance interactivity and engagement.",
         "tags": [
             "Ubiquitous Computing",
@@ -94,6 +95,7 @@
         "name": "Snack Keeper",
         "projectYearMonth": "Feb 2025",
         "collaborator": "",
+        "highlight": "",
         "intro": "Snack Keeper is a device designed to limit the number of times I open my snack cabinet to check or get snacks. The screen on the device will show the count of door being opened, once the door open count reached to two, a motor-controlled latch will locked the door for a set amount of time. ",
         "tags": [
             "Ubiquitous Computing",
@@ -116,6 +118,7 @@
         "name": "Walkwise",
         "projectYearMonth": "Dec 2024",
         "collaborator": "Nebil  Oumer, Didem Ergin, Qiyuan Zhou",
+        "highlight": "",
         "intro": "WalkWise is a conceptual product that is designed as a rollator walker add-on to guide older adults safely using a laser projector.",
         "tags": [
             "Ubiquitous Computing"
@@ -137,6 +140,7 @@
         "name": "Pong Soccer",
         "projectYearMonth": "Dec 2024",
         "collaborator": "Jou-An Chen, Qiyuan Zhou, Nicholas Huang, Siyan Wang",
+        "highlight": "",
         "intro": "Pong Soccer is an interactive robot game designed for the K-12 initiative. Students are divided into two teams, yellow and blue, competing to score goals. The game’s objective is to guide a robot equipped with a soccer bin to the opposing team’s goal by throwing ping-pong balls into designated bins.",
         "tags": [
             "Human-Robot Interaction"
@@ -182,6 +186,7 @@
         "name": "Glens",
         "projectYearMonth": "Mar 2024",
         "collaborator": "",
+        "highlight": "",
         "intro": "Reading comprehension can be challenging for non-native speakers of a language, particularly when encountering unfamiliar topics or lengthy passages with complex sentence structures. Glens represents a proof-of-concept solution that utilizes an eye-tracking mechanism to detect instances where readers experience significant decreases in reading speed or repeatedly revisit specific sections. By capturing the texts that cause difficulties, the Glens leverages generative AI to produce tailored explanations that simplify sentence structures or rephrase content, aiming to provide adequate support.",
         "tags": [
             "Ubiquitous Computing"
@@ -203,6 +208,7 @@
         "name": "CajonDoni",
         "projectYearMonth": "Mar 2024",
         "collaborator": "Jou-An Chen, Shu-Wei Hsu, Tingrui Zhang",
+        "highlight": "",
         "intro": "CajonDoni is a cajon game consisting of a mini cajon and a self-developed rhythm game. Using laser cutting, 3D printing, and electronic sensors, we designed a Cajon that can be played both individually and with the web-based game.",
         "tags": [
             "Ubiquitous Computing",
@@ -225,6 +231,7 @@
         "name": "Cornell Tech Musicbox",
         "projectYearMonth": "Feb 2024",
         "collaborator": "Jou-An Chen, Shu-Wei Hsu, Tingrui Zhang",
+        "highlight": "",
         "intro": "This digital fabrication project utilized laser cutting and 3D printing to create a Cornell Tech miniature music box. The hidden spinning plate holds a magnet that guides the red bus around the campus, creating a playful experience.",
         "tags": [
             "Digital Fabrication"
@@ -246,6 +253,7 @@
         "name": "SmartSkate",
         "projectYearMonth": "Feb 2024",
         "collaborator": "",
+        "highlight": "",
         "intro": "SmartSkate is a wearable device designed for inline skaters to enhance their practice sessions. SmartSkate provides real-time alerts to users if they exceed safe speeds or are approaching obstacles. By connecting the device with a smartphone, SmartSkate generates practicing reports that allow skaters to keep track of their progress.",
         "tags": [
             "Ubiquitous Computing"

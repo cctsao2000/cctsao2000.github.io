@@ -35,12 +35,13 @@ async function loadProject() {
     document.querySelector("#project-title").textContent = project.name;
     document.querySelector("#project-date").textContent = formatProjectDate(project.projectYearMonth);
     
-    if (project.highlight != ""){
+    if (project.highlight !== ""){
         highlightElement = document.querySelector("#project-highlight");
-        highlightElement.textContent = project.highlight;
+        highlightElement.innerHTML = project.highlight;
+        highlightElement.style.lineHeight = 1.75;
         highlightElement.style.fontWeight = 700;
         highlightElement.style.color = "#DB504A";
-    };
+    }
 
     const images = [`images/${project.id}/cover`, `images/${project.id}/image1`, `images/${project.id}/image2`];
     images.forEach(src => {
