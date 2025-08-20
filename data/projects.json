@@ -4,7 +4,7 @@
         "name": "Robo Neko",
         "projectYearMonth": "May 2025",
         "collaborator": "Jou-An Chen, Qiyuan Zhou, Nicholas Huang",
-        "highlight": "This project was presented at the 106th NY Hardware Meetup and will be presenting at the Teardown 2025, Portland.",
+        "highlight": "This project was presented at the 106th NY Hardware Meetup and the Teardown 2025, Portland.",
         "intro": "Robo Neko is an interactive desktop robot with customized personality, designed to provide emotional support, companionship, and a fun way to teach children about pet care. We used a combination of standard PLA and conductive PLA to 3D print the cat, allowing it to sense touch while maintaining an aesthetically appealing appearance.",
         "tags": [
             "Ubiquitous Computing",
