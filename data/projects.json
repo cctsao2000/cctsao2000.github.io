@@ -182,28 +182,6 @@
         "pinned": true
     },
     {
-        "id": "Glens",
-        "name": "Glens",
-        "projectYearMonth": "Mar 2024",
-        "collaborator": "",
-        "highlight": "",
-        "intro": "Reading comprehension can be challenging for non-native speakers of a language, particularly when encountering unfamiliar topics or lengthy passages with complex sentence structures. Glens represents a proof-of-concept solution that utilizes an eye-tracking mechanism to detect instances where readers experience significant decreases in reading speed or repeatedly revisit specific sections. By capturing the texts that cause difficulties, the Glens leverages generative AI to produce tailored explanations that simplify sentence structures or rephrase content, aiming to provide adequate support.",
-        "tags": [
-            "Ubiquitous Computing"
-        ],
-        "details": "",
-        "video":"https://youtube.com/embed/CZw1sfsocNA",
-        "shorts": false,
-        "otherMaterials": [
-            {
-                "name": "",
-                "link": ""
-            }
-        ],
-        "selected": true,
-        "pinned": false
-    },
-    {
         "id": "CajonDoni",
         "name": "CajonDoni",
         "projectYearMonth": "Mar 2024",
